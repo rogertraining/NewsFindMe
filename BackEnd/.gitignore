@@ -1,4 +1,4 @@
-node_modules
-./dist
-./tmp
 *.env
+node_modules
+/dist
+/tmp
