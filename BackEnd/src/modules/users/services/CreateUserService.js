@@ -1,12 +1,15 @@
 import bcrypt from "bcrypt"
 
-export class Service{
+export class CreateUserService {
     constructor(_usersRepository) {
         this._usersRepository = _usersRepository
     }
-    execute({nome, email, senha}) {
+
+    async execute({ nome, email, senha }) {
         const novaSenha = bcrypt.hashSync(senha, 10)
-        const usuario = this._usersRepository.create({nome, email, senha: novaSenha}).catch((error) => "E-mail já está sendo utilizado.") 
+
+        const usuario = await this._usersRepository.create({ nome, email, senha: novaSenha })
+
         return usuario
     }
 }

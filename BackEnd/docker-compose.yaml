@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  development_database:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=$POSTGRES_DB
+      - POSTGRES_HOST=$POSTGRES_HOST
+      - POSTGRES_PORT=$POSTGRES_PORT
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+    ports:
+      - "9000:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
+    driver: local  
+    

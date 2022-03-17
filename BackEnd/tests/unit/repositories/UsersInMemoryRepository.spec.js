@@ -1,8 +1,10 @@
 import { expect, describe, test, jest } from "@jest/globals";
 
-import { UsersInMemoryRepository } from "../../../src/modules/users/repositories/in-memory/UsersInMemoryRepository.js";
+import error_messages from "../../../src/shared/constants/error_messages.js";
 import user from "../../dummies/default_user_dummy.js";
+import { UsersInMemoryRepository } from "../../../src/modules/users/repositories/in-memory/UsersInMemoryRepository.js";
 
+const { USER_EMAIL_INVALID_ERROR } = error_messages
 const { name, email, password } = user;
 
 describe("Users In Memory Repository - tests suite for object persistency", () => {
@@ -26,9 +28,9 @@ describe("Users In Memory Repository - tests suite for object persistency", () =
         created_at: new Date().getTime(),
       });
 
-      expect(async () => {
+      await expect(async () => {
         await repository.create({ name, email, password });
-      }).rejects.toThrow("Email já está sendo utilizado");
+      }).rejects.toThrow(USER_EMAIL_INVALID_ERROR);
     });
   });
 });

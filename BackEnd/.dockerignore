@@ -1,0 +1,8 @@
+.git
+.gitignore
+.env
+database.env
+node_modules
+yarn-error.log
+yarn.lock
+*.md
