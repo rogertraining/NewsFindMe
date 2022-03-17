@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web_server:
+    build:
+      context: .
+    container_name: nginx
+    ports:
+      - "8000:80"
