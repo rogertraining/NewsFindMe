@@ -1,0 +1,21 @@
+/* Layout */
+.grid-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.grid-navigation{
+    height: 90px;
+    background-color: blue;
+}
+
+.grid-filter{
+    height: 90px;
+    background-color: orange;
+}
+
+.grid-news{
+    height: 100%;
+    background-color: green;
+}
