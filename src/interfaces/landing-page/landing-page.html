@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFindMe</title>
+    <link rel="stylesheet" href="css/landing-page.css">
+    <link rel="stylesheet" href="css/modals.css">
+</head>
+
+<body>
+    <div id="home" class="content">
+        <main>
+            <div class="container">
+                <section>
+                    <h1>NewsFindMe</h1>
+                    <h2>Seu portal de notícias personalizado</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a posuere lacus. Vestibulum tincidunt congue metus, ut commodo libero molestie vitae. Fusce vitae lacus nunc. Nullam pharetra neque tempus, vehicula est sit amet, ultricies diam. Phasellus quis feugiat nisi, a euismod nisl.</p>
+                </section>
+
+                <section>
+                    <button class="botoes" id="bt-modal-cadastro">CADASTRE-SE</button>
+                    <button class="botoes" id="bt-modal-entrar" >ENTRAR</button>
+                </section>
+            </div>
+        </main> 
+
+        <div id="image">
+            <section>
+                <img src="img/illustration.svg" alt="lendo notícia">
+            </section>
+        </div>  
+    </div>
+    
+    <section id="cadastro" class="cadastro-container">
+        <div class="modal">
+            <button id="bt-fechar">&#10006;</button>
+
+            <h1>Bem-vindo!</h1>
+            <p>Digite seus dados para que possamos te cadastrar</p>
+
+            <form>
+                <label for="nome-cadastro" class="lb-esquerdo">Nome</label>
+                <input type="text" required placeholder="Ana" id="nome-cadastro" class="input input-esquerdo">
+
+                <label for="sobrenome-cadastro" class="lb-direito">Sobrenome</label>
+                <input type="text" required placeholder="Silva"  id="sobrenome-cadastro" class="input input-direito">
+
+                <label for="email-cadastro" class="lb-esquerdo">Email</label>
+                <input type="email" required placeholder="seuemail@dominio.com" id="email-cadastro"  class="input input-inteiro">
+
+                <label for="senha-cadastro" class="lb-esquerdo">Senha</label>
+                <input type="password" required placeholder="******" id="senha-cadastro"  class="input input-esquerdo">
+
+                <label for="confirmar-senha-cadastro" class="lb-direito">Confirmar senha</label>
+                <input type="password" required placeholder="******" id="confirmar-senha-cadastro"  class="input input-direito">
+
+                <input type="submit" value="CONFIRMAR" class="enviar-formulario">
+            </form>
+        </div>
+    </section>
+
+    <section id="entrar" class="entrar-container">
+        <div id="modal-entrar" class="modal">
+            <button id="bt-fechar">&#10006;</button>
+
+            <h1>Entrar</h1>
+            <p>Seja bem-vindo de volta</p>
+
+            <form>
+                <label for="email-entrar" class="lb-esquerdo">Email</label>
+                <input type="email" required placeholder="seuemail@dominio.com" id="email-entrar"  class="input input-inteiro">
+
+                <label for="senha-entrar" class="lb-esquerdo">Senha</label>
+                <input type="password" required placeholder="******" id="senha-entrar"  class="input input-inteiro">
+
+                <input type="submit" value="ENTRAR" class="enviar-formulario">
+            </form>
+
+            <button id="bt-modal-recuperacao">Esqueceu a senha?</button>
+
+            <hr id="linha">
+
+            <button id="bt-modal-cadastro2">CADASTRE-SE</button>
+        </div>
+    </section>
+
+    <section id="recuperacao" class="recuperacao-container">
+        <div class="modal">
+            <button id="bt-fechar">&#10006;</button>
+
+            <h1>Não tem problema!</h1>
+            <p>Digite seu email para que possamos encontrar sua conta</p>
+
+            <form>
+                <label for="email-recuperacao" class="lb-esquerdo">Email</label>
+                <input type="email" required placeholder="seuemail@dominio.com" id="email-recuperacao"  class="input input-inteiro">
+                
+                <input type="submit" value="PRÓXIMO" class="enviar-formulario">
+            </form>
+        </div>
+    </section>
+</body>
+
+<footer>
+</footer>
+
+<script src="js/modals.js"></script>
+</html>
