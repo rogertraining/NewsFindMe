@@ -5,8 +5,6 @@ import usersRoutes from "./users.routes.js";
 
 const routes = Router();
 
-routes.get("/users", (request, response) =>  {
-  throw new AppError(502, "test");
-});
+routes.use("/users", usersRoutes);
 
 export default routes;

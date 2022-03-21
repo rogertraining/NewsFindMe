@@ -1,15 +1,10 @@
 import { Router } from "express";
+import { createUserHandler } from "../../../../modules/users/handlers/createUserHandler.js"
+import { getUserByIdHandler } from "../../../../modules/users/handlers/getUserByIdHandler.js";
 
 const usersRoutes = Router();
 
-usersRoutes.post("/", (request, response) => {
-  const { name, email, password } = request.body;
-
-  if (name && email && password) {
-    return response.status(201).send({ message: "deu certo" });
-  }
-
-  return response.status(400).send({ message: "deu errado" });
-});
+usersRoutes.post("/", createUserHandler)
+usersRoutes.get("/:id", getUserByIdHandler)
 
 export default usersRoutes;

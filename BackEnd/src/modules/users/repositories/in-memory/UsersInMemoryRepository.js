@@ -21,7 +21,7 @@ export class UsersInMemoryRepository {
   ;
 
 
-  async create({ name, email, password }) {
+  async create(name, email, password) {
     if (await this.findByEmail()) {
       throw new AppError(400, USER_EMAIL_INVALID_ERROR)
     }
@@ -40,5 +40,9 @@ export class UsersInMemoryRepository {
 
   async findByEmail(email) {
     return this._repository.find((user) => user.email === email);
+  }
+
+  async findById(id) {
+    return this._repository.find((user) => user.id === id)
   }
 }

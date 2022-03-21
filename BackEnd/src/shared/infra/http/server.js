@@ -5,6 +5,7 @@ import express, { json } from "express";
 import routes from "./routes/index.js";
 import { errorHandler } from "../../middlewares/errorHandler.js";
 
+import knexClient from "../database/knex-client.js";
 
 const app = express();
 

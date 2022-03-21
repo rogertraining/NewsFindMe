@@ -1,18 +1,15 @@
-export class UserController{
-   async handle(req, res){ 
-      const {name, password, email} = req.body
+import { UsersInMemoryRepository } from "../repositories/in-memory/UsersInMemoryRepository.js"
+import { CreateUserService } from "../services/CreateUserService.js"
 
-      return res.send({ message: "Hello world" });
-   }
-}  
+export async function createUserHandler(request, response) {
+  const { name, email, password } = request.body
 
+  const service = 
+    new CreateUserService(UsersInMemoryRepository.getInstance())
 
+  const createdUser = await service.execute(name, email, password)
 
-// const UsuarioController = require('../UsuarioController');
-// module.exports = (app) => {
-//    app.post('/usuario', UsuarioController.post);
-//    app.put('/usuario/:id', UsuarioController.put);
-//    app.delete('/usuario/:id', UsuarioController.delete);
-//    app.get('/usuarios', UsuarioController.get);
-//    app.get('/usuario/:id', UsuarioController.getById);
-// }
+  return response.status(201).send(createdUser)
+}
+  
+
