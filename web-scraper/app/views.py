@@ -35,13 +35,15 @@ def home():
                     titulo = titulo.replace('\n', '')
                     classe_noticia = noticia.find('a', class_='feed-post-link gui-color-primary gui-color-hover')
                     link_noticia = classe_noticia.get('href')
+                    classe_data = noticia.find('span', class_='feed-post-datetime').get_text().strip()
+                    data = classe_data.replace('-', '')
 
                     try:
                         link_imagem = noticia.find('img', class_='bstn-fd-picture-image').get('src')
                     except:
                         link_imagem = '0'
                 
-                    dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem}})
+                    dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
         indice += 1
