@@ -32,7 +32,7 @@ body .content {
 .container{
     width: 495px;
     height: 586px;
-    margin: 198px 202px 285px;
+    margin: 198px 150px 285px;
     
 }
 
@@ -47,7 +47,6 @@ h2{
     color: var(--grey);
     font-size: 36px;
     font-weight: normal;
-    line-height: 46.87px;
     margin-top: 0;
 }
 
