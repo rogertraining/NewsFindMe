@@ -12,6 +12,25 @@
     --font-family: 'DM Sans', sans-serif;
 }
 
+/* Filter */
+.filter-button{
+    all: unset;
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.filter-button > .icon{
+    
+}
+
+.filter-button > .icon{
+    
+}
+
 /* Navigation */
 .navigation-wrapper{
     width: 80%;
@@ -62,14 +81,17 @@
 }
 
 .grid-navigation{
-    height: 90px;
+    height: 110px;
     border-radius: 0 0 200px 200px;
     background-color: var(--color-main);
 }
 
 .grid-filter{
-    height: 90px;
-
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 150px;
 }
 
 .grid-news{
