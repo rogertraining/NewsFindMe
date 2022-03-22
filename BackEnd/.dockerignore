@@ -1,6 +1,6 @@
 .git
 .gitignore
-.env
+*.env
 database.env
 node_modules
 yarn-error.log

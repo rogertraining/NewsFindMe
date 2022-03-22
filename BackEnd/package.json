@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon ./src/main.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache",
+    "docker:dev": "docker-compose --env-file docker.env up -d newsfindme-api_container",
     "knex:make-migration": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:make",
     "knex:migration-down": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:down"
   },

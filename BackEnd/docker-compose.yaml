@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  development_database:
+  postgres_database:
     image: postgres
     restart: always
     environment:
@@ -11,9 +11,28 @@ services:
       - "9000:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
-    command: command
+
+  newsfindme-api_container:
+    build: 
+      context: .
+    depends_on:
+      - postgres_database
+    ports: 
+      - "3000:3000"
+    environment:
+      - SERVER_PORT=$SERVER_PORT
+      - POSTGRES_DB=$POSTGRES_DB
+      - POSTGRES_PORT=$POSTGRES_PORT
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+      - POSTGRES_HOST=postgres_database
+      - POSTGRES_USER=$POSTGRES_USER
+    volumes:
+      - node_modules:/home/node/newsfindme-api/node_modules
+    command: npm run dev
+    
 
 volumes:
   db-data:
-    driver: local  
+    driver: local 
+  node_modules:
     
