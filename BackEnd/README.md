@@ -24,6 +24,6 @@
 
   [] - Implementação dos repositories com banco de dados
 
-  [] - Implementação do método do repository que vai deletar o usuário em memória
+  [x] - Implementação do método do repository que vai deletar o usuário em memória
 
 
