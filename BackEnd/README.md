@@ -20,10 +20,10 @@
   
   [x] - Configuração do Query Builder e Banco de Dados
 
-  [] - Criação do Dockerfile pra subir o container
+  [x] - Criação do Dockerfile pra subir o container
 
   [] - Implementação dos repositories com banco de dados
 
-  [] - Implementação do método do repository que vai deletar o usuário em memória
+  [x] - Implementação do método do repository que vai deletar o usuário em memória
 
 
