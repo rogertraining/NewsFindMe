@@ -20,7 +20,7 @@
   
   [x] - Configuração do Query Builder e Banco de Dados
 
-  [] - Criação do Dockerfile pra subir o container
+  [x] - Criação do Dockerfile pra subir o container
 
   [] - Implementação dos repositories com banco de dados
 

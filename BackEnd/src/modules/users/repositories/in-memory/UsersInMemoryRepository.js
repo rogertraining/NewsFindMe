@@ -4,7 +4,10 @@ import error_messages from "../../../../shared/constants/error_messages.js";
 import { User } from "../../models/User.js";
 import { AppError } from "../../../../shared/error/AppError.js"
 
-const { USER_EMAIL_INVALID_ERROR } = error_messages
+const { 
+  USER_EMAIL_INVALID_ERROR, 
+  USER_NOT_FOUND_ERROR 
+} = error_messages
 
 export class UsersInMemoryRepository {
   constructor() {
@@ -18,11 +21,8 @@ export class UsersInMemoryRepository {
     return this.INSTANCE;
   }
 
-  ;
-
-
   async create(name, email, password) {
-    if (await this.findByEmail()) {
+    if (await this.findByEmail(email)) {
       throw new AppError(400, USER_EMAIL_INVALID_ERROR)
     }
 
@@ -36,6 +36,19 @@ export class UsersInMemoryRepository {
     this._repository.push(newUser);
 
     return newUser;
+  }
+
+  async delete(id) {
+    const user = await this.findById(id)
+
+    if (!user) {
+      throw new AppError(400, USER_NOT_FOUND_ERROR)
+    }
+
+    this._repository = 
+      this._repository.filter((user) => user.id !== id)
+
+    return user
   }
 
   async findByEmail(email) {
