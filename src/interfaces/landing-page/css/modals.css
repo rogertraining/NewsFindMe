@@ -68,10 +68,25 @@ button {
     display: flex;
 }
 
+.interesses-container {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    background: #1F1C2E50;
+}
+
+.interesses-container.mostrar {
+    display: flex;
+}
+
 .modal {
-    width: 300px;
+    width: 425px;
     min-width: 425px;
-    max-height: 480px;
     position: relative;
     padding: 30px;
     border: 10px solid white;
@@ -80,11 +95,18 @@ button {
     font-family: 'DM Sans', sans-serif;
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,.1);
     animation: modal .3s;
+    user-select: none;
 }
 
 
-#modal-entrar{
-    height: 100%;
+#modal-entrar {
+    height: 480px;
+}
+
+#modal-interesses {
+    width: 600px;
+    min-width: 600px;
+    height: 552px;
 }
 
 #bt-fechar {
@@ -120,7 +142,23 @@ button {
     text-align: center;
 }
 
-.modal label {
+#cadastro label {
+    position: absolute;
+    padding: 0 10px 0 10px;
+    background: white;
+    color: var(--grey);
+    font-size: 18px;
+}
+
+#entrar label {
+    position: absolute;
+    padding: 0 10px 0 10px;
+    background: white;
+    color: var(--grey);
+    font-size: 18px;
+}
+
+#recuperacao label {
     position: absolute;
     padding: 0 10px 0 10px;
     background: white;
@@ -161,7 +199,7 @@ button {
     float: left;
 }
 
-.enviar-formulario {
+input[type=submit] {
     width: 100%;
     padding: 10px;
     border: 3px solid var(--primary);
@@ -173,7 +211,7 @@ button {
     cursor: pointer;
 }
 
-.enviar-formulario:hover {
+input[type=submit]:hover {
     background: white;
     color: var(--primary);
     font-weight: bold;
@@ -208,7 +246,7 @@ button {
     width: 87%;
     min-width: 200px;
     position: absolute;
-    top: 460px;
+    bottom: 30px;
     padding: 10px;
     border: 3px solid var(--primary);
     border-radius: 50px;
@@ -224,4 +262,99 @@ button {
     color: white;
     font-weight: normal;
     transition: 0.2s;
+}
+
+#enviar-formulario-interesses {
+    margin-top: 27px;
+}
+
+#interesses div {
+    color: var(--primary);
+    margin:4px;
+    border-radius:20px;
+    float:left;
+}
+ 
+#interesses div label {
+    float:left;
+    width:139px;
+    height: 70px;
+    cursor: pointer;
+
+}
+ 
+#interesses div label span {
+    text-align:center;
+    padding:23px 0;
+    display:block;
+    border-radius: 20px;
+}
+
+#interesses div input:checked + span {
+    border: 3px solid var(--primary);
+    border-radius: 20px;
+}
+
+#bt-futebol {
+    background: #C8F6DC;
+}
+
+#bt-nba {
+    background: #F5DBAE;
+}
+
+#bt-entretenimento {
+    background: #C7D7F5;
+}
+
+#bt-ciencias {
+    background: #F5A395;
+}
+
+#bt-programacao {
+   background: #D9C8F6;
+}
+
+#bt-hacktivismo {
+   background: #AEF5B9;
+}
+
+#bt-culinaria {
+   background: #F5C7C7;
+}
+
+#bt-eventos {
+   background: #DCF595;
+}
+
+#bt-politica {
+   background: #F6C8C8;
+}
+
+#bt-astronomia {
+   background: #F5F2AE;
+}
+
+#bt-games {
+   background: #CDF5C7;
+}
+
+#bt-cinema {
+   background: #95EFF5;
+}
+
+#bt-celebridades {
+   background: #C9C8F6;
+}
+
+#bt-saude {
+   background: #F4AEF5;
+}
+
+#bt-negocios {
+   background: #F5C7C7;
+}
+
+#bt-economia {
+   background: #F5DA95;
 }

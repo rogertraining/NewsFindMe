@@ -21,3 +21,5 @@ cadastro2.addEventListener('click', () => iniciaModal('cadastro'));
 
 const recuperacao = document.querySelector('#bt-modal-recuperacao');
 recuperacao.addEventListener('click', () => iniciaModal('recuperacao'));
+
+interesses.addEventListener('click', () => iniciaModal('interesses'));
