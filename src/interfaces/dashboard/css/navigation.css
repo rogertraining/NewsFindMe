@@ -1,0 +1,38 @@
+/* Navigation */
+.navigation-wrapper{
+    display: flex;
+    color: var(--font-color);
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.navigation-wrapper > .logo{
+}
+
+.navigation-subwrapper{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: var(--color-main-21);
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.navigation-subwrapper > .divider{
+    height: 35px;
+    background-color: var(--color-secondary);
+    padding: 0 1px;
+    margin-right: 15px;
+}
+
+.navigation-subwrapper > .name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation-subwrapper > .-icon{
+    cursor: pointer;
+    padding-right: 15px;
+}

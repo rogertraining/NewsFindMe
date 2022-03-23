@@ -1,0 +1,39 @@
+/* Layout */
+.global-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    font-family: var(--font-family);
+}
+
+.grid-navigation{
+    height: 110px;
+    border-radius: 0 0 200px 200px;
+    background-color: var(--color-main);
+}
+
+.grid-filter{
+    display: flex;
+    align-items: flex-end;
+    height: 80px;
+}
+
+.grid-news{
+    height: 100%;
+    padding-top: 35px;
+}
+
+.grid-footer{
+    height: 50px;
+    margin-top: 80px;
+    border-radius: 200px 200px 0 0;
+    background-color: var(--color-main);
+}
+
+.grid-news,
+.grid-filter,
+.navigation-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}

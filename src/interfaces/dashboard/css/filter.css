@@ -1,0 +1,10 @@
+/* Filter */
+.filter-button{
+    all: unset;
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
