@@ -8,7 +8,7 @@ export async function up(knex) {
     table.string("title").notNullable()
     table.string("link").notNullable()
     table.string("image_url").notNullable()
-
+    table.date("posted_at").notNullable()
   })
 };
 

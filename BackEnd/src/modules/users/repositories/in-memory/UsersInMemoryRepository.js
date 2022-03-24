@@ -21,17 +21,13 @@ export class UsersInMemoryRepository {
     return this.INSTANCE;
   }
 
-  async create(name, email, password) {
+  async create({ firstname, lastname, email, password } = createUserData) {
     if (await this.findByEmail(email)) {
       throw new AppError(400, USER_EMAIL_INVALID_ERROR)
     }
 
     const id = randomUUID()
-    const newUser = new User(id, name, email, password);
-
-    Object.assign(newUser, {
-      created_at: new Date().getTime(),
-    });
+    const newUser = new User(id, firstname, lastname, email, password);
 
     this._repository.push(newUser);
 

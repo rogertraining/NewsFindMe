@@ -1,10 +1,12 @@
 import crypto from "crypto"
 
 export class User {
-  constructor(id, name, email, password) {
+  constructor(id, firstname, lastname, email, password) {
     this.id = id
-    this.name = name;
+    this.firstname = firstname;
+    this.lastname = lastname;
     this.email = email;
     this.password = password;
+    this.created_at = new Date()
   }
 }

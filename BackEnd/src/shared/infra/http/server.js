@@ -13,4 +13,6 @@ app.use(json());
 app.use(routes);
 app.use(errorHandler)
 
+app.get("/", )
+
 export default app;

@@ -5,11 +5,10 @@ export class CreateUserService {
         this._usersRepository = _usersRepository
     }
 
-    async execute(name, email, password) {
-
+    async execute({ firstname, lastname, email, password } = createUserDTO) {
         const newPassword = bcrypt.hashSync(password , 10)
 
-        const user = await this._usersRepository.create(name, email, newPassword)
+        const user = await this._usersRepository.create({ firstname, lastname, email, password })
 
         return user
     }
