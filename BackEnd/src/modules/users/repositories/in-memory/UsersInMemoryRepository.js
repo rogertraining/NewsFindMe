@@ -54,4 +54,23 @@ export class UsersInMemoryRepository {
   async findById(id) {
     return this._repository.find((user) => user.id === id)
   }
+
+  async update({ 
+    user_id, 
+    firstname, 
+    lastname, 
+    password 
+  } = updateUseData) {
+    const user = await this.findById(user_id);
+
+    if (!user) {
+      throw new AppError(400, USER_NOT_FOUND_ERROR)
+    }
+
+   user.firstname = firstname || user.firstname
+   user.lastname = lastname || user.lastname
+   user.password = password || user.password
+   
+   return user
+  }
 }

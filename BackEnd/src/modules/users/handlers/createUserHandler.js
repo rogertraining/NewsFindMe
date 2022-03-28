@@ -16,5 +16,5 @@ export async function createUserHandler(request, response) {
 
   return response.status(201).send(createdUser)
 }
-  
+
 
