@@ -2,10 +2,6 @@ import { UsersInMemoryRepository } from "../repositories/in-memory/UsersInMemory
 import { UsersPostgresRepository } from "../repositories/postgres/UsersPostgresRepository.js"
 import { CreateUserService } from "../services/CreateUserService.js"
 
-async function deleteUserHandler(request, response) {
-  
-}
-
 export async function createUserHandler(request, response) {
   const { firstname, lastname, email, password } = request.body
   
