@@ -55,6 +55,9 @@
                 "schema": {
                   "type": "object",
                   "properties": {
+                    "id": {
+                      "type": "string"
+                    },
                     "firstname": {
                       "type": "string"
                     },
@@ -63,12 +66,17 @@
                     },
                     "email": {
                       "type": "string"
+                    },
+                    "created_at": {
+                      "type": "string"
                     }
                   },
                   "example": {
+                    "id": "649a60be-dade-4559-a57f-3dc7e142bcae",
                     "firstname": "Ada",
                     "lastname": "Lovelace",
-                    "email": "adalace@email.com"
+                    "email": "adalace@email.com",
+                    "created_at": "2022-03-29T18:42:00.906Z"
                   }
                 }
               }
@@ -79,7 +87,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type":"object",
+                  "type": "object",
                   "properties": {
                     "message": {
                       "type": "string"
@@ -97,7 +105,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type":"object",
+                  "type": "object",
                   "properties": {
                     "message": {
                       "type": "string"
@@ -112,6 +120,58 @@
           }
         }
       }
+    },
+    "/users/:id": {
+      "get": {
+        "tags": [
+          "Usuários"
+        ],
+        "description": "Retorna um usuário de acordo com o id passado",
+        "responses": {
+          "200": {
+            "description": "Ok",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "firstname": {
+                      "type": "string"
+                    },
+                    "lastname": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "created_at": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "id": "649a60be-dade-4559-a57f-3dc7e142bcae",
+                    "firstname": "Ada",
+                    "lastname": "Lovelace",
+                    "email": "adalace@email.com",
+                    "created_at": "2022-03-29T18:42:00.906Z"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "description": "ID do usuário a ser buscado",
+          "required": true
+        }
+      ]
     }
   }
 }

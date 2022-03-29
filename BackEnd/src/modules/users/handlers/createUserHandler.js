@@ -11,9 +11,11 @@ export async function createUserHandler(request, response) {
   const createdUser = await repository.create({ firstname, lastname, email, password })
 
   return response.status(201).send({
+    id: createdUser.id,
     firstname: createdUser.firstname,
     lastname: createdUser.lastname,
     email: createdUser.email,
+    created_at: createdUser.created_at
   })
 }
 
