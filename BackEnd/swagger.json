@@ -1,0 +1,117 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Newsfindme backend API",
+    "description": "Essa é uma API relacionada às especificações do projeto Newsfindme",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "web server local de desenvolvimento"
+    }
+  ],
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": [
+          "Usuários"
+        ],
+        "description": "Cria um usuário e retorna alguns dados, confirmando que foi criado",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "firstname": "Ada",
+                  "lastname": "Lovelace",
+                  "email": "adalace@email.com",
+                  "password": "senhaforteaqui"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "firstname": {
+                      "type": "string"
+                    },
+                    "lastname": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "firstname": "Ada",
+                    "lastname": "Lovelace",
+                    "email": "adalace@email.com"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type":"object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "message": "Email já está sendo utilizado"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type":"object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "message": "Desculpe, algo de errado não está certo em nosso serviço. Por favor, tente novamente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
