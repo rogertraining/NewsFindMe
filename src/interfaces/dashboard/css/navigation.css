@@ -36,3 +36,9 @@
     cursor: pointer;
     padding-right: 15px;
 }
+
+.navigation-subwrapper > .profile-picture{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
