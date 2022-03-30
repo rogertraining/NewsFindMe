@@ -161,17 +161,95 @@
                 }
               }
             }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "message": "Desculpe, algo de errado não está certo em nosso serviço. Por favor, tente novamente"
+                  }
+                }
+              }
+            }
           }
         }
       },
-      "parameters": [
-        {
-          "name": "id",
-          "in": "path",
-          "description": "ID do usuário a ser buscado",
-          "required": true
-        }
-      ]
+      "delete": {
+        "tags": [
+          "Usuários"
+        ],
+        "description": "Deleta um usuário de acordo com o id passado",
+        "responses": {
+          "200": {
+            "description": "Ok",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "firstname": {
+                      "type": "string"
+                    },
+                    "lastname": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "created_at": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "id": "649a60be-dade-4559-a57f-3dc7e142bcae",
+                    "firstname": "Ada",
+                    "lastname": "Lovelace",
+                    "email": "adalace@email.com",
+                    "created_at": "2022-03-29T18:42:00.906Z"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "example": {
+                    "message": "Desculpe, algo de errado não está certo em nosso serviço. Por favor, tente novamente"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID do usuário a ser buscado",
+            "required": true
+          }
+        ]
+      }
     }
   }
 }

@@ -1,6 +1,5 @@
 import { UsersInMemoryRepository } from "../repositories/in-memory/UsersInMemoryRepository.js"
 import { UsersPostgresRepository } from "../repositories/postgres/UsersPostgresRepository.js"
-import { CreateUserService } from "../services/CreateUserService.js"
 
 export async function createUserHandler(request, response) {
   const { firstname, lastname, email, password } = request.body
@@ -18,5 +17,3 @@ export async function createUserHandler(request, response) {
     created_at: createdUser.created_at
   })
 }
-
-
