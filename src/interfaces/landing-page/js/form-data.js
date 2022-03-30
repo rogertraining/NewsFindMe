@@ -2,12 +2,20 @@ const btCadastro = document.getElementById("bt-modal-cadastro");
 const btEntrar = document.getElementById("bt-modal-entrar");
 const btConfirmarCadastro = document.getElementById("bt-confirmar");
 const btConfirmarEntrada = document.getElementById("bt-confirma-entrada");
-console.log(btEntrar)
+const btsLanding = document.querySelectorAll("#bts-landing button");
+var resultado = "";
+
+for (var i = 0; i < btsLanding.length; i++) {
+  btsLanding[i].addEventListener("click", function (e) {
+    resultado = this.innerHTML;
+    return resultado;
+  })
+}    
 
 const getForm = () => {
-  var form;
+  var form = resultado;
 
-  if(btEntrar){
+  if(form == "ENTRAR"){
     form = document.getElementById("form-entrar");
     return form;
   }else{
@@ -43,3 +51,7 @@ const toJson = function(event) {
 
 btConfirmarCadastro.addEventListener("click", toJson);
 btConfirmarEntrada.addEventListener("click", toJson);
+
+// var request = new XMLHttpRequest();
+// request.open("POST", "http://localhost:5500");
+// request.send(toJson);
