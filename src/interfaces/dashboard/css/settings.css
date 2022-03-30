@@ -11,3 +11,7 @@
     --font-color: #FFFFFF;
     --font-family: 'DM Sans', sans-serif;
 }
+
+/* Fluid Text */
+html{ font-size: 62.5%; }
+body{ font-size: 1.6rem; }

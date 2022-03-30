@@ -4,7 +4,7 @@
     color: var(--font-color);
     justify-content: space-between;
     align-items: center;
-    height: 110px;
+    height: 100%;
 }
 
 .navigation-wrapper > .logo{
@@ -13,7 +13,7 @@
 .navigation-subwrapper{
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: var(--color-main-21);
     padding: 0 20px;
     height: 50px;
@@ -29,7 +29,7 @@
 
 .navigation-subwrapper > .name{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .navigation-subwrapper > .-icon{
