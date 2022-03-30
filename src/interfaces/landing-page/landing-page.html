@@ -41,23 +41,23 @@
             <h1>Bem-vindo!</h1>
             <p>Digite seus dados para que possamos te cadastrar</p>
 
-            <form>
+            <form action="js/data-validation.json" method="post" class="form-cadastro" id="form-cadastro">
                 <label for="nome-cadastro" class="lb-esquerdo">Nome</label>
-                <input type="text" required placeholder="Ana" id="nome-cadastro" class="input input-esquerdo">
+                <input name="nome-cadastro" type="text" required placeholder="Ana" id="nome-cadastro" class="input input-esquerdo">
 
                 <label for="sobrenome-cadastro" class="lb-direito">Sobrenome</label>
-                <input type="text" required placeholder="Silva"  id="sobrenome-cadastro" class="input input-direito">
+                <input name="sobrenome-cadastro" type="text" required placeholder="Silva"  id="sobrenome-cadastro" class="input input-direito">
 
                 <label for="email-cadastro" class="lb-esquerdo">Email</label>
-                <input type="email" required placeholder="seuemail@dominio.com" id="email-cadastro"  class="input input-inteiro">
+                <input name="email-cadastro" type="email" required placeholder="seuemail@dominio.com" id="email-cadastro"  class="input input-inteiro">
 
                 <label for="senha-cadastro" class="lb-esquerdo">Senha</label>
-                <input type="password" required placeholder="******" id="senha-cadastro"  class="input input-esquerdo">
+                <input name="senha-cadastro" type="password" required placeholder="******" id="senha-cadastro"  class="input input-esquerdo">
 
                 <label for="confirmar-senha-cadastro" class="lb-direito">Confirmar senha</label>
-                <input type="password" required placeholder="******" id="confirmar-senha-cadastro"  class="input input-direito">
+                <input name="confirmacao-senha-cadastro" type="password" required placeholder="******" id="confirmar-senha-cadastro"  class="input input-direito">
 
-                <input type="submit" value="CONFIRMAR">
+                <input type="submit" id="bt-confirmar" value="CONFIRMAR">
             </form>
         </div>
     </section>
@@ -69,14 +69,14 @@
             <h1>Entrar</h1>
             <p>Seja bem-vindo de volta</p>
 
-            <form>
+            <form class="form-entrar" id="form-entrar">
                 <label for="email-entrar" class="lb-esquerdo">Email</label>
-                <input type="email" required placeholder="seuemail@dominio.com" id="email-entrar"  class="input input-inteiro">
+                <input name="email-entrar" type="email" required placeholder="seuemail@dominio.com" id="email-entrar"  class="input input-inteiro">
 
                 <label for="senha-entrar" class="lb-esquerdo">Senha</label>
-                <input type="password" required placeholder="******" id="senha-entrar"  class="input input-inteiro">
+                <input name="senha-entrar" type="password" required placeholder="******" id="senha-entrar"  class="input input-inteiro">
 
-                <input type="submit" value="ENTRAR" class="enviar-formulario">
+                <input type="submit" id="bt-confirma-entrada" value="ENTRAR" class="enviar-formulario">
             </form>
 
             <button id="bt-modal-recuperacao">Esqueceu a senha?</button>
@@ -216,4 +216,6 @@
 <footer></footer>
 
 <script src="js/modals.js"></script>
+<script src="js/form-data.js"></script>
+
 </html>
