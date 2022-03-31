@@ -10,35 +10,38 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def home():
+
     cria_arquivo_vazio()
-    noticias = scraper('div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime')
+    noticias = scraper('https://www.tecmundo.com.br/', 'div', 'tec--list__item', 'img', 'tec--card__thumb__image', 'data-src', 'a', 'tec--card__title__link', 'a', 'tec--card__title__link', 'div', 'z--truncate z-flex-1','/novidades?page=')
 
     return noticias
+"""     cria_arquivo_vazio()
+    noticias = scraper('https://g1.globo.com/','div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime', '/index/feed/pagina-', '.ghtml') """
 
 def cria_arquivo_vazio():
-    with open(r'/home/guilhermep/webscrapping/templates/noticias.json', 'w') as arquivo_vazio:
+    with open(r'./templates/noticias.json', 'w') as arquivo_vazio:
             arquivo_vazio.write('')
 
 def retorna_preferencias(informacao):
-    with open(r'/home/guilhermep/webscrapping/templates/preferencias.json', encoding='utf-8') as arquivo_preferencias:
+    with open(r'./templates/preferencias.json', encoding='utf-8') as arquivo_preferencias:
         json_load = json.load(arquivo_preferencias)
         preferencia = json_load[f'{informacao}']
     return preferencia
 
-def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_link, classe_link, tag_data, classe_data):
+def scraper(prefixo, tag, classe, tag_img, classe_img, ref_img, tag_tittle, classe_tittle, tag_link, classe_link, tag_data, classe_data, sufixo='', sufixo_final=''):
     preferencia = retorna_preferencias('Escolhas')
     indice = 0
-    ultima_pagina = 2
+    ultima_pagina = 4
     num = 0
     dicionario = {}
     while indice < len(preferencia):
             for i in range(1, ultima_pagina):
-                url_pag = f'https://g1.globo.com/{preferencia[indice]}/index/feed/pagina-{i}.ghtml'
+                url_pag = f'{prefixo}{preferencia[indice]}{sufixo}{i}{sufixo_final}'
                 site = requests.get(url_pag)
                 soup = BeautifulSoup(site.content, 'html.parser')
                 noticias_g1 = soup.find_all(f'{tag}', class_=f'{classe}')
 
-                with open(r'/home/guilhermep/webscrapping/templates/noticias.json', 'w', newline='', encoding='UTF-8') as arquivo:
+                with open(r'./templates/noticias.json', 'w', newline='', encoding='UTF-8') as arquivo:
                     for noticia in noticias_g1:
                         num += 1
                         titulo = noticia.find(f'{tag_tittle}', class_=f'{classe_tittle}').get_text().strip()
@@ -49,7 +52,7 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
                         data = classe_date.replace('-', '')
 
                         try:
-                            link_imagem = noticia.find(f'{tag_img}', class_=f'{classe_img}').get('src')
+                            link_imagem = noticia.find(f'{tag_img}', class_=f'{classe_img}').get(f'{ref_img}')
                         except:
                             link_imagem = '0'
                         
