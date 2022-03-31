@@ -47,6 +47,12 @@ export class UsersInMemoryRepository {
     return user
   }
 
+  async findAll() {
+    const allUsers = [...this._repository]
+    
+    return allUsers
+  }
+
   async findByEmail(email) {
     return this._repository.find((user) => user.email === email);
   }
