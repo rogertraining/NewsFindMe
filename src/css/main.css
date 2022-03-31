@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('normalize.css');
+
+:root{
+    --color-main:           #1F1C2E;
+    --color-main-21:        #272A45;
+    --color-secondary:      #A4A4A4;
+    --color-secondary-29:   #4A4A4A;
+    --color-background:     #E6E6E6;
+
+    --font-color: #FFFFFF;
+    --font-family: 'DM Sans', sans-serif;
+}
+
+button{
+    all: unset;
+    text-align: center;
+    border-radius: 30px;
+    height: 30px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Fluid Text */
+html{ font-size: 62.5%; }
+body{ font-size: 1.6rem; }
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-main);
+    min-height: 100vh;
+    font-family: var(--font-family);
+}
+
+.main-section{
+    padding: 20px 20px 0 20px;
+}
+
+.main-section > .infos > .title{
+    font-size: 3.8rem;
+}
+
+.main-section > .infos > .subtitle{
+    font-weight: normal;
+    color: var(--color-secondary-29);
+}
+
+.main-section > .infos > .paragraph{
+    color: var(--color-secondary-29);
+    line-height: 2rem;
+}
+
+.main-section > .infos > .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.main-section > .illustration{
+    width: 100%;
+}
+
+.button-main{
+    background-color: var(--color-main);
+    border: 2px solid var(--color-main);
+    color: var(--font-color);
+}
+
+.button-secondary{
+    border: 2px solid var(--color-main);
+}
+
+.footer-section{
+    background-color: var(--color-main);
+    height: 100px;
+    margin-top: 40px;
+}
