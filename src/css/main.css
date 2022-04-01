@@ -30,12 +30,19 @@ body{ font-size: 1.6rem; }
 body{
     background-color: var(--color-background);
     color: var(--color-main);
-    min-height: 100vh;
     font-family: var(--font-family);
 }
 
+#root{
+    width: 100vw;
+    min-height: 100vh;
+}
+
 .main-section{
-    padding: 20px 20px 0 20px;
+    width: 82%;
+    margin: auto;
+    max-width: 980px;
+    position: relative;
 }
 
 .main-section > .infos > .title{
@@ -67,14 +74,70 @@ body{
     background-color: var(--color-main);
     border: 2px solid var(--color-main);
     color: var(--font-color);
+    width: 100%;
 }
 
 .button-secondary{
     border: 2px solid var(--color-main);
+    width: 100%;
+    transition: all ease 0.3s;
 }
+
+.button-main:hover{ background-color: #110f19; }
+.button-main:active{ background-color: #0a090e; }
+
+.button-secondary:hover{ background-color: #a9a3c7; }
+.button-secondary:active{ background-color: #8279ae; }
 
 .footer-section{
     background-color: var(--color-main);
     height: 100px;
     margin-top: 40px;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .main-section{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+        min-height: 90vh;
+    }
+
+    .main-section > .infos{
+    }
+
+    .main-section > .illustration{
+        width: 50%;
+    }
+
+    .footer-section{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1024px){
+    html{
+        font-size: 70%;
+    }
+
+    .main-section{
+        margin: auto;
+        
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-section > .infos > .title{
+        font-size: 4.2rem;
+        margin-bottom: 0;
+    }
+
+    .main-section > .infos > .buttons{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
