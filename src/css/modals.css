@@ -27,13 +27,13 @@ button {
     position: fixed;
     left: 0px;
     top: 0px;
-    justify-content: center;
-    align-items: center;
     background: #1F1C2E50;
 }
 
 .cadastro-container.mostrar {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .entrar-container {
@@ -85,8 +85,9 @@ button {
 }
 
 .modal {
-    width: 425px;
-    min-width: 425px;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 425px;
     position: relative;
     padding: 30px;
     border: 10px solid white;
@@ -166,38 +167,38 @@ button {
     font-size: 18px;
 }
 
-.lb-esquerdo {
-    left: 40px;
-}
-
-.lb-direito {
-    left: 260px;
-}
-
-.input {
-    height: 40px;
-    border: 2px solid #A4A4A4;
-    border-radius: 10px;
-    margin: 15px 0 30px 0;
-    color: var(--primary);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    text-align: center;
-}
-
-.input-inteiro {
-    width: 98%;
-}
-
-.input-direito {
-    width: 47%;
-    float: right;
-}
-
-.input-esquerdo {
-    width: 47%;
-    float: left;
-}
+.field-form {
+    position: relative;
+  }
+  .field-form > .field {
+    border: 1.5px solid #a2a2a2;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    padding-left: 15px;
+    outline: none;
+  }
+  .field-form > .field:focus, .field-form > .field:valid {
+    border: 1.5px solid #5fa8d3;
+  }
+  .field-form > .field:focus + .label, .field-form > .field:valid + .label {
+    transform: translateY(-180%);
+    margin-left: 11px;
+    font-size: 14px;
+    color: #5fa8d3;
+    background-color: white;
+    padding: 0 7px 0 7px;
+  }
+  .field-form > .label {
+    position: absolute;
+    bottom: 17px;
+    left: 0%;
+    padding: 0px 15px;
+    font-size: 1rem;
+    color: #a2a2a2;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
 
 input[type=submit] {
     width: 100%;
