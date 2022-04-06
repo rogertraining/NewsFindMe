@@ -6,3 +6,6 @@ services:
     container_name: nginx
     ports:
       - "8000:80"
+
+volumes:
+  assets:
