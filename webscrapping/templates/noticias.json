@@ -1,362 +1,62 @@
 {
     "Notícia 1": {
-        "Tittle": "Academia Brasileira de Ciências terá mulher no comando pela primeira vez",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236310-academia-brasileira-ciencias-tera-mulher-comando-primeira-vez.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/30/30112503400160.jpg?ims=164x118",
-        "Date": "há 3 horas"
+        "Tittle": "Russos cavaram trincheiras em área radioativa ao redor de Chernobyl",
+        "Notice": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/04/07/russos-cavaram-trincheiras-na-floresta-vermelha-area-mais-radioativa-ao-redor-de-chernobyl-diz-empresa-responsavel-pela-usina.ghtml",
+        "Image": "https://s2.glbimg.com/wZq1YbJuznRcox22J4VnL3Hc-rM=/0x0:1200x675/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/1QoxvJWVjeWea9D0A2WI7sg0OBw=/1200x/smart/filters:cover():strip_icc()/s01.video.glbimg.com/x720/10460896.jpg",
+        "Date": "Há 6 horas"
     },
     "Notícia 2": {
-        "Tittle": "Mês de Abril terá chuva de meteoros Líridas; saiba como acompanhar",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236055-ceu-abril-veja-acompanhar-chuva-meteoros-liridas.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25145938594299.jpg?ims=164x118",
-        "Date": "há 6 horas"
+        "Tittle": "Relator pede cassação de Arthur do Val por falas sobre ucranianas",
+        "Notice": "https://g1.globo.com/sp/sao-paulo/noticia/2022/04/07/relator-pede-cassacao-de-arthur-do-val-no-conselho-de-etica-da-alesp-apos-frases-machistas-sobre-mulheres-ucranianas.ghtml",
+        "Image": "https://s2.glbimg.com/pr4NMJ1DyGkrG5bUIGHAXmdCROs=/0x0:1200x675/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/DfeR7KKyqyZgTkC0ZojCVb0DWJo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/G/9/3o12FPTAmH6wOLZYOjzA/olim.jpeg",
+        "Date": "Há 2 horas"
     },
     "Notícia 3": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (31/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/236312-10-noticias-tecnologia-voce-comecar-dia-31-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/30/30184629462559.jpg?ims=164x118",
-        "Date": "há 10 horas"
+        "Tittle": "Vídeo íntimo com menor, acusação de estupro e mais: o caso Gabriel Monteiro",
+        "Notice": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/07/video-simulando-furto-sexo-com-adolescente-meninas-chorando-o-que-se-sabe-sobre-as-investigacoes-contra-gabriel-monteiro.ghtml",
+        "Image": "https://s2.glbimg.com/pwvnkuLcikwob9zhPGVMsvrgTN4=/233x54:1461x746/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/6/qUCL2tSMmf4IoRQJPCxQ/gabriel.jpeg",
+        "Date": "Há 2 horas"
     },
     "Notícia 4": {
-        "Tittle": "Com novo recorde, telescópio Hubble segue expandindo fronteiras da ciência",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236302-novo-recorde-telescopio-hubble-segue-expandindo-fronteiras-ciencia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/30/30142715561361.jpg?ims=164x118",
-        "Date": "há 21 horas"
+        "Tittle": "Adolescente ia de uniforme escolar à casa do vereador, afirma assessor",
+        "Notice": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/07/gabriel-monteiro-sabia-que-jovem-com-quem-teve-relacoes-sexuais-era-menor-de-idade-dizem-testemunhas-a-policia.ghtml",
+        "Image": "https://s2.glbimg.com/OnO-2KGb_m_e4zFkgxvwrPdPcbU=/0x0:562x316/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/6/q/Gp9i6RS6idFqvaBs6x5Q/buscas-monteiro.jpg",
+        "Date": "Há 5 horas"
     },
     "Notícia 5": {
-        "Tittle": "Asteroide 'potencialmente perigoso' vai passar pela Terra em 1º de abril",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236247-asteroide-potencialmente-perigoso-passar-terra-1-abril.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/30/30103628099105.jpg?ims=164x118",
-        "Date": "há 22 horas"
+        "Tittle": "Nova cirurgia na perna de Rodrigo Mussi 'foi um sucesso', diz família",
+        "Notice": "https://g1.globo.com/sp/sao-paulo/noticia/2022/04/07/irmao-de-rodrigo-mussi-diz-que-nova-cirurgia-na-perna-foi-bem-sucedida.ghtml",
+        "Image": "https://s2.glbimg.com/RS6dx6_kJzrhJS0aNvuIo-blwUQ=/0x0:620x349/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/W/a/T2BnLwT7CZ2L2H2Cz8cQ/whatsapp-image-2022-04-05-at-18.06.13-1-.jpeg",
+        "Date": "Há 3 horas"
     },
     "Notícia 6": {
-        "Tittle": "Hubble detecta a estrela mais distante já vista pela humanidade",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236289-hubble-detecta-estrela-distante-vista-humanidade.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/30/30153953120411.jpg?ims=164x118",
-        "Date": "há 23 horas"
+        "Tittle": "Fez ou recebeu PIX por engano? Veja o que fazer",
+        "Notice": "https://g1.globo.com/economia/noticia/2022/04/05/fez-ou-recebeu-pix-por-engano-veja-o-que-fazer.ghtml",
+        "Image": "https://s2.glbimg.com/m1rWEoLb_9-b1RxPB6ty9-TNqSo=/0x0:1280x720/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Q/A/t9hZgwTbml5LgXSBB6KQ/10231672.jpg",
+        "Date": "Há 2 minutos"
     },
     "Notícia 7": {
-        "Tittle": "Cientistas encontram primeiro ninho de Titanossauros do Brasil",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236193-cientistas-encontram-primeiro-ninho-titanossauros-brasil.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29103201516139.jpg?ims=164x118",
-        "Date": "ontem"
+        "Tittle": "Facebook derruba perfis falsos que postavam desinformação e seriam de militares",
+        "Notice": "https://g1.globo.com/tecnologia/noticia/2022/04/07/meta-derruba-rede-de-perfis-falsos-ligada-a-militares-brasileiros.ghtml",
+        "Image": "https://s2.glbimg.com/vw-ufL-ylvEjfNOoiXe-5i1-04M=/0x71:2545x1503/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/R/j/EABQKCRvOIeAicPOFmSg/2021-12-16t200338z-451168379-rc2wfr9fvlp9-rtrmadp-3-meta-facebook-cyber.jpg",
+        "Date": "Há 1 hora"
     },
     "Notícia 8": {
-        "Tittle": "Fotógrafo brasileiro tem foto publicada pela NASA; veja imagem",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236245-fotografo-brasileiro-tem-foto-publicada-nasa-veja-imagem.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29194514476639.jpg?ims=164x118",
-        "Date": "ontem"
+        "Tittle": "Ministério da Saúde confirma 1º caso da ômicron XE; veja o que se sabe",
+        "Notice": "https://g1.globo.com/saude/noticia/2022/04/07/entenda-o-que-e-a-omicron-xe-que-teve-o-primeiro-caso-confirmado-no-brasil.ghtml",
+        "Image": "https://s2.glbimg.com/c4ZDpKp0r7BF2Jt1lpold4dz8DA=/72x69:1066x628/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/i3FfB1ehSjmPRc_cRWxsNGvuwuQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/t/I/BEtmLPSr6RwqpMwhVj2A/corona-mayo.jpg",
+        "Date": "Há 3 minutos"
     },
     "Notícia 9": {
-        "Tittle": "Eu, chato? Estudo diz o que faz alguém ser considerado entediante",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236050-eu-chato-estudo-diz-alguem-considerado-entediante.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25144313039297.jpg?ims=164x118",
-        "Date": "ontem"
+        "Tittle": "O polêmico e caro procedimento usado para clonar animais de estimação",
+        "Notice": "https://g1.globo.com/ciencia/noticia/2022/04/04/o-polemico-e-caro-procedimento-usado-para-clonar-animais-de-estimacao.ghtml",
+        "Image": "https://s2.glbimg.com/h-47CAF_N_ISqY_g8ue0VFpqBsc=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/I/a0jWamSZK5gcoWe2TfBA/bbc-1.png",
+        "Date": "Há 3 dias"
     },
     "Notícia 10": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (30/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/236233-10-noticias-tecnologia-voce-comecar-dia-30-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29184652050624.jpg?ims=164x118",
-        "Date": "ontem"
-    },
-    "Notícia 11": {
-        "Tittle": "Novo tratamento elimina pedra dos rins com ultrassom, sem anestesia",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236148-novo-tratamento-elimina-pedra-rins-ultrassom-anestesia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/28/28173723047618.jpg?ims=164x118",
-        "Date": "ontem"
-    },
-    "Notícia 12": {
-        "Tittle": "Tripofobia: o que é, quais são os sintomas, os tratamentos e as causas",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235811-tripofobia-sintomas-tratamentos-causas.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/22/22130141335292.jpg?ims=164x118",
-        "Date": "ontem"
-    },
-    "Notícia 13": {
-        "Tittle": "Nome do telescópio James Webb pode mudar? Entenda a polêmica",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236196-nome-telescopio-james-webb-mudar-entenda-polemica.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29142508713326.jpg?ims=164x118",
-        "Date": "ontem"
-    },
-    "Notícia 14": {
-        "Tittle": "Material radioativo desapareceu de laboratório em Chernobyl, diz Ucrânia",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236171-material-radioativo-desapareceu-laboratorio-chernobyl-diz-ucrania.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29104131548146.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 15": {
-        "Tittle": "Procon investiga Google por fim do Drive ilimitado em universidades",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236154-procon-investiga-google-fim-drive-ilimitado-universidades.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/29/29125927123236.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 16": {
-        "Tittle": "Muralha de gelo impediu primeira ocupação humana nas Américas, diz estudo",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236047-muralha-gelo-impediu-primeira-ocupacao-humana-americas-diz-estudo.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25143551617291.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 17": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (29/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/236155-10-noticias-tecnologia-voce-comecar-dia-29-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/28/28191829614679.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 18": {
-        "Tittle": "Covid-19: Brasil começa a aplicar quarta dose da vacina em idosos",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236149-covid-19-brasil-comeca-aplicar-quarta-dose-vacina-idosos.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/28/28174612001623.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 19": {
-        "Tittle": "Estudo: covid-19 aumenta risco de desenvolver diabetes tipo 2",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236043-estudo-covid-19-aumenta-risco-desenvolver-diabetes-tipo-2.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25140937022262.jpg?ims=164x118",
-        "Date": "há 2 dias"
-    },
-    "Notícia 20": {
-        "Tittle": "O que é alopecia? Saiba mais sobre a condição da atriz Jada Pinkett Smith",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236128-alopecia-saiba-condicao-atriz-jada-pinkett-smith.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/28/28114111190164.jpg?ims=164x118",
-        "Date": "há 3 dias"
-    },
-    "Notícia 21": {
-        "Tittle": "Artemis: LEGO lança conjunto inspirado na nova missão espacial da NASA",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235819-artemis-lego-lanca-conjunto-inspirado-nova-missao-espacial-nasa.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17190426964381.jpg?ims=164x118",
-        "Date": "há 3 dias"
-    },
-    "Notícia 22": {
-        "Tittle": "Como funciona um computador quântico?",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236018-funciona-computador-quantico.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25103754436091.jpg?ims=164x118",
-        "Date": "há 3 dias"
-    },
-    "Notícia 23": {
-        "Tittle": "Fiocruz vai produzir injeção que previne HIV",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235880-fiocruz-produzir-injecao-previne-hiv.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/23/23140014002256.jpg?ims=164x118",
-        "Date": "há 4 dias"
-    },
-    "Notícia 24": {
-        "Tittle": "#AstroMiniBR: já descobrimos mais de 5 mil planetas fora do Sistema Solar!",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236082-astrominibr-descobrimos-5-mil-planetas-fora-sistema-solar-.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25193059506566.jpg?ims=164x118",
-        "Date": "há 4 dias"
-    },
-    "Notícia 25": {
-        "Tittle": "Pesquisadores criam robô que alivia raiva ao transmitir mensagens",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235820-pesquisadores-criam-robo-alivia-raiva-transmitir-mensagens.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/21/21132326222318.jpg?ims=164x118",
-        "Date": "há 5 dias"
-    },
-    "Notícia 26": {
-        "Tittle": "10 notícias mais importantes da semana (21/03 a 25/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/236081-10-noticias-importantes-semana-21-03-25-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25182712434511.jpg?ims=164x118",
-        "Date": "há 5 dias"
-    },
-    "Notícia 27": {
-        "Tittle": "NASA lança foguetes na aurora boreal para estudar fenômeno",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236044-nasa-lanca-foguetes-aurora-boreal-estudar-fenomeno.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25141649600272.jpg?ims=164x118",
-        "Date": "há 5 dias"
-    },
-    "Notícia 28": {
-        "Tittle": "Cientistas criam alface transgênica que protege ossos de astronautas",
-        "Notice": "https://www.tecmundo.com.br/ciencia/236021-cientistas-criam-alface-transgenica-protege-ossos-astronautas.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/25/25105336693110.jpg?ims=164x118",
-        "Date": "há 6 dias"
-    },
-    "Notícia 29": {
-        "Tittle": "Adoçantes podem estar relacionados a maior risco de câncer, diz pesquisa",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235989-adocantes-relacionados-maior-risco-cancer-diz-pesquisa.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/24/24173529011407.jpg?ims=164x118",
-        "Date": "há 6 dias"
-    },
-    "Notícia 30": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (25/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/235993-10-noticias-tecnologia-voce-comecar-dia-25-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/24/24183954630482.jpg?ims=164x118",
-        "Date": "há 6 dias"
-    },
-    "Notícia 31": {
-        "Tittle": "Paciente com paralisia total volta a se comunicar após implante no cérebro",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235970-paciente-paralisia-total-volta-comunicar-implante-cerebro.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/24/24132431521201.jpg?ims=164x118",
-        "Date": "há 6 dias"
-    },
-    "Notícia 32": {
-        "Tittle": "A origem dos transgênicos e os reais impactos deles para nossa saúde",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235315-origem-transgenicos-reais-impactos-deles-nossa-saude.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/13/13123852321008.jpg?ims=164x118",
-        "Date": "há 7 dias"
-    },
-    "Notícia 33": {
-        "Tittle": "Fim das máscaras? Saiba quando a proteção ainda é recomendada",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235882-fim-mascaras-saiba-protecao-ainda-recomendada.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/23/23143050205283.jpg?ims=164x118",
-        "Date": "há 7 dias"
-    },
-    "Notícia 34": {
-        "Tittle": "Robô-guepardo do MIT aprende a correr e já supera os 14 km/h; veja o vídeo",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235875-robo-guepardo-mit-aprende-correr-supera-14-km-h-veja-video.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/21/21124626398283.jpg?ims=164x118",
-        "Date": "há 7 dias"
-    },
-    "Notícia 35": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (24/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/235909-10-noticias-tecnologia-voce-comecar-dia-24-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/23/23184255974523.jpg?ims=164x118",
-        "Date": "há 7 dias"
-    },
-    "Notícia 36": {
-        "Tittle": "Ultrapassamos a marca de 5.000 exoplanetas encontrados",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235889-ultrapassamos-marca-5-000-exoplanetas-encontrados.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/23/23104232500086.jpg?ims=164x118",
-        "Date": "há 7 dias"
-    },
-    "Notícia 37": {
-        "Tittle": "NASA confirma existência de mais de 5 mil exoplanetas",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235862-nasa-confirma-existencia-5-mil-exoplanetas.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/22/22201825829001.jpg?ims=164x118",
-        "Date": "há 8 dias"
-    },
-    "Notícia 38": {
-        "Tittle": "Estudo mostra quais células cerebrais são mais afetadas pela covid-19",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235791-estudo-mostra-celulas-cerebrais-afetadas-covid-19.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/22/22113106753204.jpg?ims=164x118",
-        "Date": "há 8 dias"
-    },
-    "Notícia 39": {
-        "Tittle": "Dormir em quarto iluminado aumenta risco de doenças e ganho de peso",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235798-dormir-quarto-iluminado-aumenta-risco-doencas-ganho-peso.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/22/22114158972218.jpg?ims=164x118",
-        "Date": "há 8 dias"
-    },
-    "Notícia 40": {
-        "Tittle": "Uso de desinfetante em ambiente fechado gera poluição semelhante à de carro",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235575-uso-desinfetante-ambiente-fechado-gera-poluicao-semelhante-carro.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17163837122282.jpg?ims=164x118",
-        "Date": "há 9 dias"
-    },
-    "Notícia 41": {
-        "Tittle": "Contato com cães pode amenizar dor e ansiedade de pacientes de emergência",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235568-contato-caes-amenizar-dor-ansiedade-pacientes-emergencia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17161445981263.jpg?ims=164x118",
-        "Date": "há 9 dias"
-    },
-    "Notícia 42": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (22/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/235760-10-noticias-tecnologia-voce-comecar-dia-22-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/21/21194015422624.jpg?ims=164x118",
-        "Date": "há 9 dias"
-    },
-    "Notícia 43": {
-        "Tittle": "Algoritmo é capaz de traduzir grunhidos de porcos em emoções",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235387-algoritmo-capaz-traduzir-grunhidos-porcos-emocoes.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/12/12121125282003.jpg?ims=164x118",
-        "Date": "há 9 dias"
-    },
-    "Notícia 44": {
-        "Tittle": "Teorema de Pitágoras e outras fórmulas que usamos sem perceber",
-        "Notice": "https://www.tecmundo.com.br/ciencia/234774-teorema-pitagoras-outras-formulas-usamos-perceber.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/03/03162639477695.jpg?ims=164x118",
-        "Date": "há 10 dias"
-    },
-    "Notícia 45": {
-        "Tittle": "Tabela periódica: aprenda sobre os elementos em menos de 1 minuto",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235492-tabela-periodica-aprenda-elementos-1-minuto.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/16/16145144913074.jpg?ims=164x118",
-        "Date": "há 10 dias"
-    },
-    "Notícia 46": {
-        "Tittle": "NanoCar Race: conheça a corrida dos menores carros do mundo",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235672-nanocar-race-conheca-corrida-menores-carros-mundo.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/18/18174613602471.jpg?ims=164x118",
-        "Date": "há 10 dias"
-    },
-    "Notícia 47": {
-        "Tittle": "Maioria dos brasileiros diz estar preocupada com meio ambiente",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235502-maioria-brasileiros-diz-preocupada-meio-ambiente.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/16/16135722265035.jpg?ims=164x118",
-        "Date": "há 10 dias"
-    },
-    "Notícia 48": {
-        "Tittle": "Fundação Gates cria fundo de US$ 90 milhões para barrar futuras pandemias",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235496-fundacao-gates-cria-fundo-us-90-milhoes-barrar-futuras-pandemias.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/15/15225334126002.jpg?ims=164x118",
-        "Date": "há 10 dias"
-    },
-    "Notícia 49": {
-        "Tittle": "Laboratórios russos têm escassez de equipamentos devido à guerra, diz site",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235670-laboratorios-russos-tem-escassez-equipamentos-devido-guerra-diz-site.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/18/18173217070459.jpg?ims=164x118",
-        "Date": "há 11 dias"
-    },
-    "Notícia 50": {
-        "Tittle": "Penicilina: saiba mais sobre o primeiro antibiótico da história",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235365-penicilina-conheca-primeiro-antibiotico-historia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/14/14002832441001.jpg?ims=164x118",
-        "Date": "há 11 dias"
-    },
-    "Notícia 51": {
-        "Tittle": "Quem foi Marie Curie e qual a sua importância para a ciência",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235400-marie-curie-importancia-ciencia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/15/15084705024018.jpg?ims=164x118",
-        "Date": "há 11 dias"
-    },
-    "Notícia 52": {
-        "Tittle": "#AstroMiniBR: é possível ver outras galáxias a olho nu?",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235665-astrominibr-possivel-ver-outras-galaxias-olho-nu-.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/18/18141223791331.jpg?ims=164x118",
-        "Date": "há 11 dias"
-    },
-    "Notícia 53": {
-        "Tittle": "Radiotelescópio brasileiro vai ajudar a entender mistérios da cosmologia",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235648-radiotelescopio-brasileiro-ajudar-entender-misterios-cosmologia.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/18/18154408161383.jpg?ims=164x118",
-        "Date": "há 12 dias"
-    },
-    "Notícia 54": {
-        "Tittle": "10 notícias mais importantes da semana (14/03 a 18/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/235673-10-noticias-importantes-semana-14-03-18-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/18/18175832595481.jpg?ims=164x118",
-        "Date": "há 12 dias"
-    },
-    "Notícia 55": {
-        "Tittle": "Tubarões cochilam durante o dia para conservar energia, diz estudo",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235377-tubaroes-cochilam-durante-dia-conservar-energia-diz-estudo.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/10/10152207131324.jpg?ims=164x118",
-        "Date": "há 12 dias"
-    },
-    "Notícia 56": {
-        "Tittle": "Primeira vacina vegana contra covid-19 é aprovada no Canadá",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235577-primeira-vacina-vegana-covid-19-aprovada-canada.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/16/16124959484171.jpg?ims=164x118",
-        "Date": "há 13 dias"
-    },
-    "Notícia 57": {
-        "Tittle": "Vacina contra chikungunya do Butantan é segura e eficaz, mostram dados",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235535-vacina-chikungunya-butantan-segura-eficaz-mostram-dados.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17115516971015.jpg?ims=164x118",
-        "Date": "há 13 dias"
-    },
-    "Notícia 58": {
-        "Tittle": "10 notícias de tecnologia para você começar o dia (18/03)",
-        "Notice": "https://www.tecmundo.com.br/internet/235582-10-noticias-tecnologia-voce-comecar-dia-18-03.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17174431444346.jpg?ims=164x118",
-        "Date": "há 13 dias"
-    },
-    "Notícia 59": {
-        "Tittle": "Energia escura: o maior enigma do Universo",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235524-energia-escura-maior-enigma-universo.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/16/16181539306289.jpg?ims=164x118",
-        "Date": "há 13 dias"
-    },
-    "Notícia 60": {
-        "Tittle": "Doria anuncia fim da obrigatoriedade de máscara em lugares fechados de SP",
-        "Notice": "https://www.tecmundo.com.br/ciencia/235580-doria-anuncia-fim-obrigatoriedade-mascara-lugares-fechados-sp.htm",
-        "Image": "https://tm.ibxk.com.br/2022/03/17/17172117537332.jpg?ims=164x118",
-        "Date": "há 13 dias"
+        "Tittle": "Covid: Brasil está pronto para declarar o 'fim' da pandemia?",
+        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/03/covid-saiba-se-o-brasil-esta-pronto-para-declarar-o-fim-da-pandemia.ghtml",
+        "Image": "https://s2.glbimg.com/P9Ti6aNGJzJns4eljWRca_KgPTc=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/p/K/wAyWHIROmM9uioGTtbBQ/whatsapp-image-2021-09-24-at-18.03.56.jpeg",
+        "Date": "Há 4 dias"
     }
 }

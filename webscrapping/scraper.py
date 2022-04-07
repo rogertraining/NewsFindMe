@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -8,32 +8,24 @@ app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 app.config['JSON_AS_ASCII'] = False
 
-@app.route('/')
+@app.route('/noticias', methods=['POST'])
 def home():
+    noticias2 = scraper('https://g1.globo.com/','div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'src', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime', '/index/feed/pagina-', '.ghtml')
 
-    cria_arquivo_vazio()
-    noticias = scraper('https://www.tecmundo.com.br/', 'div', 'tec--list__item', 'img', 'tec--card__thumb__image', 'data-src', 'a', 'tec--card__title__link', 'a', 'tec--card__title__link', 'div', 'z--truncate z-flex-1','/novidades?page=')
+    return noticias2
 
-    return noticias
-"""     cria_arquivo_vazio()
-    noticias = scraper('https://g1.globo.com/','div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime', '/index/feed/pagina-', '.ghtml') """
+def retorna_preferencias():
+    preferencias_json = request.get_json()
+    preferencias = preferencias_json['Escolhas']
+    return preferencias
 
-def cria_arquivo_vazio():
-    with open(r'./templates/noticias.json', 'w') as arquivo_vazio:
-            arquivo_vazio.write('')
-
-def retorna_preferencias(informacao):
-    with open(r'./templates/preferencias.json', encoding='utf-8') as arquivo_preferencias:
-        json_load = json.load(arquivo_preferencias)
-        preferencia = json_load[f'{informacao}']
-    return preferencia
+dicionario = {}
 
 def scraper(prefixo, tag, classe, tag_img, classe_img, ref_img, tag_tittle, classe_tittle, tag_link, classe_link, tag_data, classe_data, sufixo='', sufixo_final=''):
-    preferencia = retorna_preferencias('Escolhas')
+    preferencia = retorna_preferencias()
     indice = 0
-    ultima_pagina = 4
+    ultima_pagina = 2
     num = 0
-    dicionario = {}
     while indice < len(preferencia):
             for i in range(1, ultima_pagina):
                 url_pag = f'{prefixo}{preferencia[indice]}{sufixo}{i}{sufixo_final}'
