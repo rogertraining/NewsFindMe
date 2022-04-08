@@ -2,12 +2,12 @@ from app import app
 import json
 import requests
 from bs4 import BeautifulSoup
-from flask import jsonify
+from flask import jsonify, request
 
 app.config['JSON_SORT_KEYS'] = False
 app.config['JSON_AS_ASCII'] = False
 
-@app.route('/')
+@app.route('/noticias', methods=['POST'])
 def home():
     cria_arquivo_vazio()
     noticias = scraper('div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime')
@@ -18,16 +18,15 @@ def cria_arquivo_vazio():
     with open(r'noticias.json', 'w') as arquivo_vazio:
             arquivo_vazio.write('')
 
-def retorna_preferencias(informacao):
-    with open(r'preferencias.json', encoding='utf-8') as arquivo_preferencias:
-        json_load = json.load(arquivo_preferencias)
-        preferencia = json_load[f'{informacao}']
-    return preferencia
+def retorna_preferencias():
+    preferencias_json = request.get_json()
+    preferencias = preferencias_json['Escolhas']
+    return preferencias
 
 def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_link, classe_link, tag_data, classe_data):
-    preferencia = retorna_preferencias('Escolhas')
+    preferencia = retorna_preferencias()
     indice = 0
-    ultima_pagina = 2
+    ultima_pagina = 5
     num = 0
     dicionario = {}
     while indice < len(preferencia):
