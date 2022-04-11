@@ -3,11 +3,14 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from flask import jsonify, request
+from flask_cors import  CORS, cross_origin
 
 app.config['JSON_SORT_KEYS'] = False
 app.config['JSON_AS_ASCII'] = False
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/noticias', methods=['POST'])
+@cross_origin()
 def home():
     cria_arquivo_vazio()
     noticias = scraper('div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime')
@@ -56,4 +59,4 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
 
         indice += 1
 
-    return jsonify(dicionario)
+    return jsonify(dicionario), 200

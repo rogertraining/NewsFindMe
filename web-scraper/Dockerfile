@@ -6,3 +6,4 @@ COPY ./requirements.txt /var/www/requirements.txt
 RUN pip install -r /var/www/requirements.txt
 RUN pip3 install requests
 RUN pip install beautifulsoup4
+RUN pip install -U flask-cors
