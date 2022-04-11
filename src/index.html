@@ -30,31 +30,36 @@
             </div>
             <footer class="footer-section"></footer>
 
-            <section id="cadastro" class="cadastro-container">
-                <div class="modal">
-                    <button id="bt-fechar">&#10006;</button>
-        
-                    <h1>Bem-vindo!</h1>
-                    <p>Digite seus dados para que possamos te cadastrar</p>
-        
-                    <form class="form-cadastro" id="form-cadastro">
-                        <label class="field-form" for="name">
-                            <input class="field" name="name" type="text" required autocomplete="off">
-                            <span class="label">Nome</span>
-                        </label>
+            <div class="modal-container" id="modal-register">
+               <div class="wrapper">
+                  <button class="close" id="modal-close">&#10006;</button>
+                  <h1 class="title">Bem-vindo!</h1>
+                  <p class="paragraph">Digite seus dados para que possamos te cadastrar</p>
+                  <div class="group">
+                     <div class="input-form">
+                        <input class="field" name="firstname" type="text" required autocomplete="off">
+                        <label class="label">Nome</label>
+                     </div>
 
-                        <label class="field-form" for="name">
-                            <input class="field" name="name" type="text" required autocomplete="off">
-                            <span class="label">Nome</span>
-                        </label>
+                    <div class="input-form">
+                        <input class="field" name="lastname" type="text" required autocomplete="off">
+                        <label class="label">Sobrenome</label>
+                     </div>
+                  </div>
+                  <div class="input-form">
+                     <input class="field" name="email" type="email" required autocomplete="off">
+                     <label class="label">Email</label>
+                 </div>
+                 <div class="input-form">
+                     <input class="field" name="password" type="password" required autocomplete="off">
+                     <label class="label">Password</label>
+                  </div>
+                  <button class="button-main" id="bt-confirmar">Próximo</button>
+               </div>
+            </div>
         
-                        <input type="submit" id="bt-confirmar" value="CONFIRMAR">
-                    </form>
-                </div>
-            </section>
-        
-            <section id="entrar" class="entrar-container">
-                <div id="modal-entrar" class="modal">
+            <section id="modal-login" class="entrar-container">
+                <div class="modal">
                     <button id="bt-fechar">&#10006;</button>
         
                     <h1>Entrar</h1>
@@ -78,7 +83,7 @@
                 </div>
             </section>
         
-            <section id="recuperacao" class="recuperacao-container">
+            <section id="modal-recovery" class="recuperacao-container">
                 <div class="modal">
                     <button id="bt-fechar">&#10006;</button>
         
@@ -94,8 +99,8 @@
                 </div>
             </section>
         
-            <section id="interesses" class="interesses-container">
-                <div id="modal-interesses" class="modal">
+            <section id="modal-choices" class="interesses-container">
+                <div class="modal">
                     <button id="bt-fechar">&#10006;</button>
         
                     <h1>Nos diga seus interesses</h1>

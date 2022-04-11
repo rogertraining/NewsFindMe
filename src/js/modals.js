@@ -1,25 +1,25 @@
+/* Getting the elements */
+const register = document.querySelector('#bt-modal-cadastro');
+const registerNext = document.querySelector('#bt-confirmar');
+
+const login = document.querySelector('#bt-modal-entrar');
+const recovery = document.querySelector('#bt-modal-recuperacao');
+
+/* Listeners */
+register.addEventListener('click', () => iniciaModal('modal-register'));
+registerNext.addEventListener('click', () => iniciaModal('modal-choices'));
+
+login.addEventListener('click', () => iniciaModal('modal-login'));
+recovery.addEventListener('click', () => iniciaModal('modal-recovery'));
+
 function iniciaModal(modalID) {
     const modal = document.getElementById(modalID);
     if(modal) {
-        modal.classList.add('mostrar');
+        modal.classList.add('show');
         modal.addEventListener('click', (e) => {
-            if(e.target.id == modalID || e.target.id == 'bt-modal-recuperacao' || e.target.id == 'bt-fechar' || e.target.id == 'bt-modal-cadastro2') {
-                modal.classList.remove('mostrar');
+            if(e.target.id == modalID || e.target.id == 'bt-modal-recuperacao' || e.target.id == 'modal-close' || e.target.id == 'bt-modal-cadastro2') {
+                modal.classList.remove('show');
             }
         });
     }
 }
-
-const cadastro = document.querySelector('#bt-modal-cadastro');
-cadastro.addEventListener('click', () => iniciaModal('cadastro'));
-
-const entrar = document.querySelector('#bt-modal-entrar');
-entrar.addEventListener('click', () => iniciaModal('entrar'));
-
-const cadastro2 = document.querySelector('#bt-modal-cadastro2');
-cadastro2.addEventListener('click', () => iniciaModal('cadastro'));
-
-const recuperacao = document.querySelector('#bt-modal-recuperacao');
-recuperacao.addEventListener('click', () => iniciaModal('recuperacao'));
-
-interesses.addEventListener('click', () => iniciaModal('interesses'));
