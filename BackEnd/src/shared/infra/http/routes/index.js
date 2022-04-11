@@ -6,6 +6,7 @@ import fs from "fs";
 import path from "path";
 
 import usersRoutes from "./users.routes.js";
+import { newsRoutes } from "./news.routes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 
@@ -21,6 +22,7 @@ const fileJson = JSON.parse(fileBuffer.toString())
 const routes = Router();
 
 routes.use("/users", usersRoutes)
+routes.use("/news", newsRoutes)
 routes.use("/api-docs", swaggerUi.serve)
 routes.get("/api-docs", swaggerUi.setup(fileJson))
 

@@ -3,8 +3,8 @@ import { Joi, Segments, celebrate } from "celebrate";
 
 import { getCustomNewsHandler } from "../../../../modules/news/handlers/getCustomNewsHandler.js"
 
-const newsRouter = Router()
+const newsRoutes = Router()
 
 newsRouter.post("/", getCustomNewsHandler)
 
-export { newsRouter }
+export { newsRoutes }
