@@ -5,6 +5,6 @@ import { getCustomNewsHandler } from "../../../../modules/news/handlers/getCusto
 
 const newsRoutes = Router()
 
-newsRouter.post("/", getCustomNewsHandler)
+newsRoutes.post("/", getCustomNewsHandler)
 
 export { newsRoutes }
