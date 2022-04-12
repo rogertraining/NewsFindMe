@@ -13,16 +13,22 @@ export class NewsInMemoryRepository {
     return this._INSTANCE
   }
 
-  create(newsData) {
+  create(newsData, preferences) {
     if (newsData.length !== 0) {
-      newsData.forEach(news => {
-        const newsToBeSaved = 
-          new News(news.title, news.link, news.image_url, new Date())
-        
-          this._repository.push(savedNews)
+      newsData.forEach(newsObject => {
+        const [,news] = newsObject
+        console.log(news.Notice.contains(preferences[0]))
+        const newsToBeSaved = new News()
+        Object.assign(newsToBeSaved, {
+          title: news.Tittle,
+          link: news.Notice,
+          image_url: news.Image,
+          saved_at: new Date()
+        })
+        this._repository.push(newsToBeSaved)
       });
     }
-
+    
     const savedNews = [...this._repository]
 
     return savedNews

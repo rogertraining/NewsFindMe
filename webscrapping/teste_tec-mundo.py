@@ -1,0 +1,2 @@
+""" cria_arquivo_vazio()
+    noticias = scraper('https://www.tecmundo.com.br/', 'div', 'tec--list__item', 'img', 'tec--card__thumb__image', 'data-src', 'a', 'tec--card__title__link', 'a', 'tec--card__title__link', 'div', 'z--truncate z-flex-1','/novidades?page=') """

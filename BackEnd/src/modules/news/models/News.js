@@ -1,7 +1,7 @@
 import { randomUUID } from "crypto"
 
 export class News {
-  constructor(title, link, image_url, posted_at) {
+  constructor() {
     if (!this.id) {
       this.id = randomUUID()
     }

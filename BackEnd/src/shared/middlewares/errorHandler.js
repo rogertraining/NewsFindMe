@@ -22,6 +22,6 @@ export function errorHandler(error, request, response, next) {
 
     return response.status(400).send( { message } )
   }
-
+  console.log(error)
   return response.status(500).send({ message: SERVER_INTERNAL_ERROR })
 }

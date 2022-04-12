@@ -1,0 +1,62 @@
+{
+    "Notícia 1": {
+        "Tittle": "Russos cavaram trincheiras em área radioativa ao redor de Chernobyl",
+        "Notice": "https://g1.globo.com/mundo/ucrania-russia/noticia/2022/04/07/russos-cavaram-trincheiras-na-floresta-vermelha-area-mais-radioativa-ao-redor-de-chernobyl-diz-empresa-responsavel-pela-usina.ghtml",
+        "Image": "https://s2.glbimg.com/wZq1YbJuznRcox22J4VnL3Hc-rM=/0x0:1200x675/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/1QoxvJWVjeWea9D0A2WI7sg0OBw=/1200x/smart/filters:cover():strip_icc()/s01.video.glbimg.com/x720/10460896.jpg",
+        "Date": "Há 6 horas"
+    },
+    "Notícia 2": {
+        "Tittle": "Relator pede cassação de Arthur do Val por falas sobre ucranianas",
+        "Notice": "https://g1.globo.com/sp/sao-paulo/noticia/2022/04/07/relator-pede-cassacao-de-arthur-do-val-no-conselho-de-etica-da-alesp-apos-frases-machistas-sobre-mulheres-ucranianas.ghtml",
+        "Image": "https://s2.glbimg.com/pr4NMJ1DyGkrG5bUIGHAXmdCROs=/0x0:1200x675/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/DfeR7KKyqyZgTkC0ZojCVb0DWJo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/G/9/3o12FPTAmH6wOLZYOjzA/olim.jpeg",
+        "Date": "Há 2 horas"
+    },
+    "Notícia 3": {
+        "Tittle": "Vídeo íntimo com menor, acusação de estupro e mais: o caso Gabriel Monteiro",
+        "Notice": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/07/video-simulando-furto-sexo-com-adolescente-meninas-chorando-o-que-se-sabe-sobre-as-investigacoes-contra-gabriel-monteiro.ghtml",
+        "Image": "https://s2.glbimg.com/pwvnkuLcikwob9zhPGVMsvrgTN4=/233x54:1461x746/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/6/qUCL2tSMmf4IoRQJPCxQ/gabriel.jpeg",
+        "Date": "Há 2 horas"
+    },
+    "Notícia 4": {
+        "Tittle": "Adolescente ia de uniforme escolar à casa do vereador, afirma assessor",
+        "Notice": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/07/gabriel-monteiro-sabia-que-jovem-com-quem-teve-relacoes-sexuais-era-menor-de-idade-dizem-testemunhas-a-policia.ghtml",
+        "Image": "https://s2.glbimg.com/OnO-2KGb_m_e4zFkgxvwrPdPcbU=/0x0:562x316/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/6/q/Gp9i6RS6idFqvaBs6x5Q/buscas-monteiro.jpg",
+        "Date": "Há 5 horas"
+    },
+    "Notícia 5": {
+        "Tittle": "Nova cirurgia na perna de Rodrigo Mussi 'foi um sucesso', diz família",
+        "Notice": "https://g1.globo.com/sp/sao-paulo/noticia/2022/04/07/irmao-de-rodrigo-mussi-diz-que-nova-cirurgia-na-perna-foi-bem-sucedida.ghtml",
+        "Image": "https://s2.glbimg.com/RS6dx6_kJzrhJS0aNvuIo-blwUQ=/0x0:620x349/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/W/a/T2BnLwT7CZ2L2H2Cz8cQ/whatsapp-image-2022-04-05-at-18.06.13-1-.jpeg",
+        "Date": "Há 3 horas"
+    },
+    "Notícia 6": {
+        "Tittle": "Fez ou recebeu PIX por engano? Veja o que fazer",
+        "Notice": "https://g1.globo.com/economia/noticia/2022/04/05/fez-ou-recebeu-pix-por-engano-veja-o-que-fazer.ghtml",
+        "Image": "https://s2.glbimg.com/m1rWEoLb_9-b1RxPB6ty9-TNqSo=/0x0:1280x720/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Q/A/t9hZgwTbml5LgXSBB6KQ/10231672.jpg",
+        "Date": "Há 2 minutos"
+    },
+    "Notícia 7": {
+        "Tittle": "Facebook derruba perfis falsos que postavam desinformação e seriam de militares",
+        "Notice": "https://g1.globo.com/tecnologia/noticia/2022/04/07/meta-derruba-rede-de-perfis-falsos-ligada-a-militares-brasileiros.ghtml",
+        "Image": "https://s2.glbimg.com/vw-ufL-ylvEjfNOoiXe-5i1-04M=/0x71:2545x1503/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/R/j/EABQKCRvOIeAicPOFmSg/2021-12-16t200338z-451168379-rc2wfr9fvlp9-rtrmadp-3-meta-facebook-cyber.jpg",
+        "Date": "Há 1 hora"
+    },
+    "Notícia 8": {
+        "Tittle": "Ministério da Saúde confirma 1º caso da ômicron XE; veja o que se sabe",
+        "Notice": "https://g1.globo.com/saude/noticia/2022/04/07/entenda-o-que-e-a-omicron-xe-que-teve-o-primeiro-caso-confirmado-no-brasil.ghtml",
+        "Image": "https://s2.glbimg.com/c4ZDpKp0r7BF2Jt1lpold4dz8DA=/72x69:1066x628/540x304/smart/filters:max_age(3600)/https://s2.glbimg.com/i3FfB1ehSjmPRc_cRWxsNGvuwuQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/t/I/BEtmLPSr6RwqpMwhVj2A/corona-mayo.jpg",
+        "Date": "Há 3 minutos"
+    },
+    "Notícia 9": {
+        "Tittle": "O polêmico e caro procedimento usado para clonar animais de estimação",
+        "Notice": "https://g1.globo.com/ciencia/noticia/2022/04/04/o-polemico-e-caro-procedimento-usado-para-clonar-animais-de-estimacao.ghtml",
+        "Image": "https://s2.glbimg.com/h-47CAF_N_ISqY_g8ue0VFpqBsc=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/I/a0jWamSZK5gcoWe2TfBA/bbc-1.png",
+        "Date": "Há 3 dias"
+    },
+    "Notícia 10": {
+        "Tittle": "Covid: Brasil está pronto para declarar o 'fim' da pandemia?",
+        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/03/covid-saiba-se-o-brasil-esta-pronto-para-declarar-o-fim-da-pandemia.ghtml",
+        "Image": "https://s2.glbimg.com/P9Ti6aNGJzJns4eljWRca_KgPTc=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/p/K/wAyWHIROmM9uioGTtbBQ/whatsapp-image-2021-09-24-at-18.03.56.jpeg",
+        "Date": "Há 4 dias"
+    }
+}
