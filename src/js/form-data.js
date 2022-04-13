@@ -1,8 +1,10 @@
-const btCadastro = document.getElementById("bt-modal-cadastro");
-const btEntrar = document.getElementById("bt-modal-entrar");
-const btConfirmarCadastro = document.getElementById("bt-confirmar");
-const btConfirmarEntrada = document.getElementById("bt-confirma-entrada");
 const btsLanding = document.querySelectorAll("#bts-landing button");
+const btCadastro = document.getElementById("bt-modal-cadastro");
+const btProximo = document.getElementById("bt-confirmar");
+const btFinalizaCadastro = document.getElementById("enviar-formulario-interesses");
+const btEntrar = document.getElementById("bt-modal-entrar");
+const btConfirmarEntrada = document.getElementById("bt-confirma-entrada");
+
 var resultado = "";
 
 for (var i = 0; i < btsLanding.length; i++) {
@@ -15,11 +17,11 @@ for (var i = 0; i < btsLanding.length; i++) {
 const getForm = () => {
   var form = resultado;
 
-  if(form == "ENTRAR"){
-    form = document.getElementById("form-entrar");
+  if(form == "Cadastre-se"){
+    form = document.getElementById("form-cadastro");
     return form;
   }else{
-    form = document.getElementById("form-cadastro");
+    form = document.getElementById("form-entrar");
     return form;
   }
 }
@@ -47,11 +49,17 @@ const toJson = function(event) {
 
   let json = JSON.stringify(Object.fromEntries(formData));
   console.log(json);
+
+  const options = {
+    method: 'POST',
+    headers: {
+        "Content-Type": "application/json; charset=utf-8",
+    },
+    body: json,
+  }
+
+  fetch('http://localhost:8000/', options)
 };
 
-btConfirmarCadastro.addEventListener("click", toJson);
+btProximo.addEventListener("click", toJson);
 btConfirmarEntrada.addEventListener("click", toJson);
-
-// var request = new XMLHttpRequest();
-// request.open("POST", "http://localhost:5500");
-// request.send(toJson);

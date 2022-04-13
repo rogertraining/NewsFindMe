@@ -21,7 +21,7 @@
                     <p class="paragraph">
                         Agora você pode ter todas as suas prefêrencias em um só lugar, para sempre se manter atualizado. Faça o cadastro, escolha os temas de sua prefêrencia e tenha as notícias de acordo com os seus gostos sempre que quiser, atualizadas em tempo real
                     </p>
-                    <div class="buttons">
+                    <div class="buttons" id="bts-landing">
                         <button class="button-main" id="bt-modal-cadastro">Cadastre-se</button>
                         <button class="button-secondary" id="bt-modal-entrar">Entrar</button>
                     </div>
@@ -36,25 +36,28 @@
                     <h1 class="title">Bem-vindo!</h1>
                     <p class="paragraph">Digite seus dados para que possamos te cadastrar</p>
                     <div class="group">
-                       <div class="input-form">
-                          <input class="field" name="firstname" type="text" required autocomplete="off">
-                          <label class="label">Nome</label>
-                       </div>
-                
-                      <div class="input-form">
-                          <input class="field" name="lastname" type="text" required autocomplete="off">
-                          <label class="label">Sobrenome</label>
-                       </div>
-                    </div>
-                    <div class="input-form">
-                       <input class="field" name="email" type="email" required autocomplete="off">
-                       <label class="label">Email</label>
-                   </div>
-                   <div class="input-form">
-                       <input class="field" name="password" type="password" required autocomplete="off">
-                       <label class="label">Password</label>
-                    </div>
-                    <button class="button-main" id="bt-confirmar">Próximo</button>
+                        <form id="form-cadastro">
+                           <div class="input-form">
+                              <input class="field" name="firstname" type="text" required autocomplete="off">
+                              <label class="label">Nome</label>
+                           </div>
+                 
+                           <div class="input-form">
+                              <input class="field" name="lastname" type="text" required autocomplete="off">
+                              <label class="label">Sobrenome</label>
+                           </div>
+                     
+                           <div class="input-form">
+                              <input class="field" name="email" type="email" required autocomplete="off">
+                              <label class="label">Email</label>
+                           </div>
+                           <div class="input-form">
+                              <input class="field" name="password" type="password" required autocomplete="off">
+                              <label class="label">Password</label>
+                           </div>
+                           <button class="button-main" id="bt-confirmar">Próximo</button>
+                        </form>
+                    </div>   
                  </div>
             </div>
         
