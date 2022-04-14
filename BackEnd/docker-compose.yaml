@@ -9,16 +9,21 @@ services:
       - POSTGRES_PASSWORD=docker
     ports:
       - "9000:5432"
+    networks:
+      - app-network
     volumes:
       - db-data:/var/lib/postgresql/data
 
   newsfindme-api_container:
+    container_name: newsfindme_backend
     build: 
       context: .
     depends_on:
       - postgres_database
     ports: 
       - "3000:3000"
+    networks:
+      - app-network
     environment:
       - SERVER_PORT=$SERVER_PORT
       - POSTGRES_DB=$POSTGRES_DB
@@ -30,9 +35,21 @@ services:
       - node_modules:/home/node/newsfindme-api/node_modules
     command: npm run dev
     
+  web_scraper_container:
+    container_name: scraper
+    build:
+      context: ./web-scraper/.
+    networks:
+      - app-network
+    ports:
+      - 56733:80
+    
 
 volumes:
   db-data:
     driver: local 
   node_modules:
-    
+
+networks:
+  app-network:
+    driver: bridge

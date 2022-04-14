@@ -1,242 +1,242 @@
 {
     "Notícia 1": {
+        "Tittle": "'Meu marido me proibiu de fazer laqueadura, mesmo após 5ª gestação'",
+        "Notice": "https://g1.globo.com/saude/noticia/2022/04/14/meu-marido-me-proibiu-de-fazer-laqueadura-mesmo-apos-5a-gestacao.ghtml",
+        "Image": "https://s2.glbimg.com/P7jpdM25R7BGGxkMmK-AANY0KnE=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/95/19/9921995",
+        "Date": "Há 3 horas"
+    },
+    "Notícia 2": {
         "Tittle": "Mundo registra mais de 500 milhões de casos de Covid-19, aponta universidade",
         "Notice": "https://g1.globo.com/mundo/noticia/2022/04/14/casos-de-covid-19-no-mundo-passam-de-meio-bilhao.ghtml",
         "Image": "https://s2.glbimg.com/ZJBPdTmHC8RgU8WpD9wVC4r9N1Y=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/t/y/iM0dm8RFKqBSKdccQA4Q/mapa-johns-hopkins.png",
-        "Date": "Há 5 horas"
+        "Date": "Há 7 horas"
     },
-    "Notícia 2": {
+    "Notícia 3": {
         "Tittle": "Fraqueza e obesidade abdominal podem indicar sinais de declínio funcional em homens",
         "Notice": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2022/04/14/fraqueza-e-obesidade-abdominal-podem-indicar-sinais-de-declinio-funcional-em-homens.ghtml",
         "Image": "https://s2.glbimg.com/95bDhUBsWiDKjHCi-jjikm2Zo_w=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/J/C/YbVqgFT969mE7IqxR3qA/decliniofuncionalemhomens.jpg",
-        "Date": "Há 6 horas"
+        "Date": "Há 9 horas"
     },
-    "Notícia 3": {
+    "Notícia 4": {
         "Tittle": "VÍDEO: Professora salva aluno de 9 anos que engasgou com tampinha nos EUA; entenda a manobra de Heimlich",
         "Notice": "https://g1.globo.com/mundo/noticia/2022/04/14/video-professora-salva-aluno-de-9-anos-que-engasgou-com-tampinha-nos-eua-entenda-a-manobra-de-heimlich.ghtml",
         "Image": "https://s2.glbimg.com/zOYhUs-9sERF7R9P5KkpJftJ6QE=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/40/09/10480940",
-        "Date": "Há 11 horas"
+        "Date": "Há 14 horas"
     },
-    "Notícia 4": {
+    "Notícia 5": {
         "Tittle": "Bula digital: Anvisa diz que 'vê com preocupação' aprovação de projeto de lei",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/13/bula-digital-anvisa-diz-que-ve-com-preocupacao-aprovacao-de-projeto-de-lei.ghtml",
         "Image": "https://s2.glbimg.com/B3vOUi_lq6ShTR2PX8atCS2zGbk=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/7/u/wyI08tTfCwZTdqGR7YuA/anvisa.jpg",
-        "Date": "Há 13 horas"
-    },
-    "Notícia 5": {
-        "Tittle": "Brasil registra menor média móvel de mortes por Covid em 3 meses, com 133 vítimas por dia",
-        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/13/brasil-registra-menor-media-movel-de-mortes-por-covid-em-3-meses-com-133-vitimas-por-dia.ghtml",
-        "Image": "https://s2.glbimg.com/FSVxmkWLKQ3TKyxnlqKqAeh8Ndg=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/49/15/10481549",
         "Date": "Há 16 horas"
     },
     "Notícia 6": {
+        "Tittle": "Brasil registra menor média móvel de mortes por Covid em 3 meses, com 133 vítimas por dia",
+        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/13/brasil-registra-menor-media-movel-de-mortes-por-covid-em-3-meses-com-133-vitimas-por-dia.ghtml",
+        "Image": "https://s2.glbimg.com/FSVxmkWLKQ3TKyxnlqKqAeh8Ndg=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/49/15/10481549",
+        "Date": "Há 19 horas"
+    },
+    "Notícia 7": {
         "Tittle": "Vacinação contra a Covid: 75,6% da população está totalmente imunizada; 38% tomou a dose de reforço",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/13/vacinacao-contra-a-covid-756percent-da-populacao-esta-totalmente-imunizada-38percent-tomou-a-dose-de-reforco.ghtml",
         "Image": "https://s2.glbimg.com/IUT0-wcCbc4jsFbcj2uodcjsFxY=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/K/BmRRQ1TOWClMSYthgDmQ/zohgp-vacina-o-infantil-nos-estados-3-3-.png",
-        "Date": "Há 16 horas"
+        "Date": "Há 19 horas"
     },
-    "Notícia 7": {
+    "Notícia 8": {
         "Tittle": "Entenda o que é a doença usada como justificativa para a compra de Viagra para as Forças Armadas",
         "Notice": "https://g1.globo.com/saude/stories/2022/04/13/entenda-o-que-e-a-doenca-usada-como-justificativa-para-a-compra-de-viagra-para-as-forcas-armadas.ghtml",
         "Image": "https://s2.glbimg.com/SyAqMgX4o8xB97PKgGSXxNuiv3g=/fit-in/540x304/filters:fill(000)/https://s2.glbimg.com/aS8DMGyvGHYK7sEMP7xYEe0NiSI=/0x0:1080x1920/1080x1920/middle/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/P/a/uEAN5fR7mz4ihfk177Vw/novo-projeto-13-.jpg",
-        "Date": "Há 20 horas"
-    },
-    "Notícia 8": {
-        "Tittle": "OMS determina que pandemia de Covid-19 continua a ser emergência de saúde pública internacional",
-        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/13/oms-determina-que-pandemia-de-covid-19-continua-a-ser-emergencia-de-saude-publica-internacional.ghtml",
-        "Image": "https://s2.glbimg.com/2TRaY4QQsM_zBLij24ez5gpI7Ow=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/4/b/zvdlkxQhq85ALT1zzU9w/000-32899cd.jpg",
         "Date": "Há 23 horas"
     },
     "Notícia 9": {
+        "Tittle": "OMS determina que pandemia de Covid-19 continua a ser emergência de saúde pública internacional",
+        "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/13/oms-determina-que-pandemia-de-covid-19-continua-a-ser-emergencia-de-saude-publica-internacional.ghtml",
+        "Image": "https://s2.glbimg.com/2TRaY4QQsM_zBLij24ez5gpI7Ow=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/4/b/zvdlkxQhq85ALT1zzU9w/000-32899cd.jpg",
+        "Date": "Ontem"
+    },
+    "Notícia 10": {
         "Tittle": "Teste genético: quando é indicado e quais cuidados você deve ter, segundo médicos",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/13/teste-genetico-quando-e-indicado-e-quais-cuidados-voce-deve-ter-segundo-medicos.ghtml",
         "Image": "https://s2.glbimg.com/wfwU1zBoenSVXzG2V-HuAAXKfaI=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/56/61/10236156",
         "Date": "Ontem"
     },
-    "Notícia 10": {
+    "Notícia 11": {
         "Tittle": "Zika vírus pode estar a um passo de novo surto global",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/13/zika-virus-pode-estar-a-um-passo-de-novo-surto-global.ghtml",
         "Image": "https://s2.glbimg.com/YQ3F8Ha_TAIULOxsX4HNfMxYJu4=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/m/1/BiUPB2RQigQ8rlA6InAw/fiocruz-raul-santana-00333-1-.jpg",
         "Date": "Ontem"
     },
-    "Notícia 11": {
+    "Notícia 12": {
         "Tittle": "O Assunto #685: Sarampo - riscos de surtos e importância da vacina",
         "Notice": "https://g1.globo.com/podcast/o-assunto/noticia/2022/04/13/o-assunto-685-sarampo-riscos-de-surtos-e-importancia-da-vacina.ghtml",
         "Image": "https://s2.glbimg.com/HehvOqHu7wdYoVABiJeobxPhxoU=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/u/p/MCvi3PSlO2kC6DnaSVmg/podcasts-3000x1688-sem-logo-02.png",
-        "Date": "Ontem"
+        "Date": "Há 2 dias"
     },
-    "Notícia 12": {
+    "Notícia 13": {
         "Tittle": "Mais de quatro meses depois, inquérito sobre ataque hacker a órgãos federais ainda não foi concluído",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/12/mais-de-quatro-meses-depois-inquerito-sobre-ataque-hacker-a-orgaos-federais-ainda-nao-foi-concluido.ghtml",
         "Image": "https://s2.glbimg.com/9045kEskibLVjyjCw5HmgsXs-N8=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/91/76/10477691",
         "Date": "Há 2 dias"
     },
-    "Notícia 13": {
+    "Notícia 14": {
         "Tittle": "Vacinação contra a Covid: 162,2 milhões de pessoas estão totalmente imunizadas",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/12/vacinacao-contra-a-covid-1622-milhoes-de-pessoas-estao-totalmente-imunizadas.ghtml",
         "Image": "https://s2.glbimg.com/Xn-yTo1oopDkve6_2WjbR5P2rfk=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/f/x8LCOaQjKmD9y8dm5RZg/zohgp-vacina-o-infantil-nos-estados-24-.png",
         "Date": "Há 2 dias"
     },
-    "Notícia 14": {
+    "Notícia 15": {
         "Tittle": "Brasil registra mais 163 mortes por Covid e chega a 661,5 mil; média móvel segue em queda",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/12/brasil-registra-mais-163-mortes-por-covid-e-chega-a-6615-mil-media-movel-segue-em-queda.ghtml",
         "Image": "https://s2.glbimg.com/dvtbgl4rCOagnjGnKFZQQQP3ZqM=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/01/77/10477701",
         "Date": "Há 2 dias"
     },
-    "Notícia 15": {
+    "Notícia 16": {
         "Tittle": "Cigarro Eletrônico: entenda o que é e quais os riscos",
         "Notice": "https://g1.globo.com/saude/stories/2022/04/12/cigarro-eletronico-entenda-o-que-e-e-quais-os-riscos.ghtml",
         "Image": "https://s2.glbimg.com/kHgJuPO-1vMyAJ9-xbfTZYElX7k=/fit-in/540x304/filters:fill(000)/https://s2.glbimg.com/Jy2o0VZYnTpGmlQz8fNdALTLeMA=/397x0:993x1065/596x1065/middle/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/U/N/Sc3OdLT4eEBrVEGqRyQw/descontraido-mulher-fumando-em-um-restaurante-1157-444.png",
         "Date": "Há 2 dias"
     },
-    "Notícia 16": {
+    "Notícia 17": {
         "Tittle": "Estudo traz novas descobertas sobre reduzir a ingestão de sal",
         "Notice": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2022/04/12/estudo-traz-novas-descobertas-sobre-reduzir-a-ingestao-de-sal.ghtml",
         "Image": "https://s2.glbimg.com/S_1KoIiWQLGJ9OvYqbTAoxRo2Ms=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/7/3/1yoqSnQxqaSkw9Yb1uBQ/sal.jpg",
         "Date": "Há 2 dias"
     },
-    "Notícia 17": {
+    "Notícia 18": {
         "Tittle": "Estudo brasileiro publicado na Lancet aponta ineficácia da hidroxicloroquina para evitar internações por Covid",
         "Notice": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2022/04/12/estudo-brasileiro-com-13-mil-pacientes-publicado-na-lancet-aponta-ineficacia-da-cloroquina-para-evitar-internacoes-por-covid.ghtml",
         "Image": "https://s2.glbimg.com/1vfNI81bbypJKxiBnMlM9nxmahE=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/K/v/ecNIFBQKAnk73I4BqZfQ/whatsapp-image-2022-04-07-at-11.41.53.jpeg",
         "Date": "Há 2 dias"
     },
-    "Notícia 18": {
+    "Notícia 19": {
         "Tittle": "Vacina contra a gripe: por que tomar todo ano? Quais as reações? Tire suas dúvidas",
         "Notice": "https://g1.globo.com/mg/minas-gerais/noticia/2022/04/12/vacina-contra-a-gripe-por-que-tomar-todo-ano-quais-as-reacoes-tire-suas-duvidas.ghtml",
         "Image": "https://s2.glbimg.com/ZZ_cuw4rS76xhp0elez6m9o75v0=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/37/51/10475137",
         "Date": "Há 2 dias"
     },
-    "Notícia 19": {
+    "Notícia 20": {
         "Tittle": "Em queda, média móvel de mortes por Covid no Brasil completa 10 dias abaixo de 200",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/11/em-queda-media-movel-de-mortes-por-covid-no-brasil-completa-10-dias-abaixo-de-200.ghtml",
         "Image": "https://s2.glbimg.com/4WcHDEDkQP99LmZ-AhD-s0d1hM4=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/23/42/10474223",
         "Date": "Há 3 dias"
     },
-    "Notícia 20": {
+    "Notícia 21": {
         "Tittle": "Vacinação contra a Covid: mais de 75% da população está totalmente imunizada; 38% recebeu a dose de reforço",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/11/vacinacao-contra-a-covid-mais-de-75percent-da-populacao-esta-totalmente-imunizada-38percent-recebeu-a-dose-de-reforco.ghtml",
         "Image": "https://s2.glbimg.com/4WcHDEDkQP99LmZ-AhD-s0d1hM4=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/23/42/10474223",
         "Date": "Há 3 dias"
     },
-    "Notícia 21": {
+    "Notícia 22": {
         "Tittle": "Risco de inflamações no coração após vacinação contra Covid-19 é raro, aponta estudo",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/11/risco-de-inflamacoes-no-coracao-apos-vacinacao-contra-covid-19-e-raro-aponta-estudo.ghtml",
         "Image": "https://s2.glbimg.com/qOoJNSSxHfG9nW4O33evYeXClG4=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/l/D/cSEjcITHC3Dxk5BF0Ykw/whatsapp-image-2018-05-22-at-10.42.48.jpeg",
         "Date": "Há 3 dias"
     },
-    "Notícia 22": {
+    "Notícia 23": {
         "Tittle": "Covid-19: estudo liga doença a risco maior de coágulo, trombose e embolia",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/11/covid-19-estudo-liga-doenca-a-risco-maior-de-coagulo-trombose-e-embolia.ghtml",
         "Image": "https://s2.glbimg.com/VZqRqpvNQCdvWvvTx6kJToZKzkM=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/B/v/B2ad2MQWGPotmBVYSJBg/image001-9-.jpg",
         "Date": "Há 3 dias"
     },
-    "Notícia 23": {
+    "Notícia 24": {
         "Tittle": "Cigarro eletrônico chega à 4ª geração com 'roupa nova' e mais viciante; Anvisa debate regulamentação",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/11/cigarro-eletronico-chega-a-4a-geracao-com-roupa-nova-e-mais-viciante-anvisa-debate-regulamentacao.ghtml",
         "Image": "https://s2.glbimg.com/lprjnRhNs3JMf4YvoT2XfYlyKrw=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/17/69/10466917",
         "Date": "Há 3 dias"
     },
-    "Notícia 24": {
+    "Notícia 25": {
         "Tittle": "21 países não vacinaram nem 10% da população contra Covid-19, diz OMS",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/11/21-paises-nao-vacinaram-nem-10percent-da-populacao-contra-covid-19-diz-oms.ghtml",
         "Image": "https://s2.glbimg.com/zVEXeq4iv94a8VKNTqTFhSTL0nw=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/T/O/AZ63IMTeCmVlA0h566dw/000-327u288.jpg",
         "Date": "Há 3 dias"
     },
-    "Notícia 25": {
+    "Notícia 26": {
         "Tittle": "Autismo: 'Fui diagnosticada aos 60 anos'",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/11/autismo-fui-diagnosticada-aos-60-anos.ghtml",
         "Image": "https://s2.glbimg.com/cJa4da7uIT6hZweif71tlV_duKw=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Z/E/1MeB8TTBAhD52jvPwDfw/image002-15-.jpg",
         "Date": "Há 3 dias"
     },
-    "Notícia 26": {
+    "Notícia 27": {
         "Tittle": "Como as crianças estão sendo afetadas pela Covid longa",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/11/como-as-criancas-estao-sendo-afetadas-pela-covid-longa.ghtml",
         "Image": "https://s2.glbimg.com/mku_wNgUzBV1o9SGf48_MXk5adk=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/J/D/WePneTS2agWgwuAiPBlg/imagem1.jpg",
         "Date": "Há 3 dias"
     },
-    "Notícia 27": {
+    "Notícia 28": {
         "Tittle": "O Assunto #683: Ômicron - todas as letras das subvariantes",
         "Notice": "https://g1.globo.com/podcast/o-assunto/noticia/2022/04/11/o-assunto-683-nova-variante-covid.ghtml",
         "Image": "https://s2.glbimg.com/HehvOqHu7wdYoVABiJeobxPhxoU=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/u/p/MCvi3PSlO2kC6DnaSVmg/podcasts-3000x1688-sem-logo-02.png",
-        "Date": "Há 3 dias"
+        "Date": "Há 4 dias"
     },
-    "Notícia 28": {
+    "Notícia 29": {
         "Tittle": "Vacinação contra a Covid: 162 milhões de brasileiros estão totalmente imunizados; 4 milhões de crianças tomaram a 2ª dose",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/10/vacinacao-contra-a-covid-162-milhoes-de-brasileiros-estao-totalmente-imunizados.ghtml",
         "Image": "https://s2.glbimg.com/bCQ9xQiPtqBZdm3TPvHvDRf5TGY=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/C/P/AR1xMXTXiJynM96a7kMQ/zohgp-vacina-o-infantil-nos-estados-23-.png",
         "Date": "Há 4 dias"
     },
-    "Notícia 29": {
+    "Notícia 30": {
         "Tittle": "Com 39 mortes por Covid em 24 horas, Brasil tem menor média móvel em 86 dias",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/10/com-39-mortes-por-covid-em-24-horas-brasil-tem-menor-media-movel-em-86-dias.ghtml",
         "Image": "https://s2.glbimg.com/TIC_ci691bTrvRaZ_Bt5l-PIGoA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/o/5/JlbTA5SbSuU3HcAACw6A/14mm-mortes-arte-10-.jpg",
         "Date": "Há 4 dias"
     },
-    "Notícia 30": {
+    "Notícia 31": {
         "Tittle": "Espiritualidade, exercício e café: o que os especialistas aconselham para o coração",
         "Notice": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2022/04/10/espiritualidade-exercicio-e-cafe-o-que-os-especialistas-aconselham-para-o-coracao.ghtml",
         "Image": "https://s2.glbimg.com/pphzV2GT0s_qv-Sj6_fQvylp07A=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/P/0/NBAoFmQoCdbTZQHcrx7g/saudecoracao1-2-.jpg",
         "Date": "Há 4 dias"
     },
-    "Notícia 31": {
+    "Notícia 32": {
         "Tittle": "Vacinação contra a Covid: quase 162 milhões de pessoas estão totalmente imunizadas; 81 milhões tomaram a dose de reforço",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/09/vacinacao-contra-a-covid-quase-162-milhoes-de-pessoas-estao-totalmente-imunizadas-81-milhoes-tomaram-a-dose-de-reforco.ghtml",
         "Image": "https://s2.glbimg.com/KDguqAoQuJ5pjBnkI5URaD3769c=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/98/97/10469798",
         "Date": "Há 5 dias"
     },
-    "Notícia 32": {
+    "Notícia 33": {
         "Tittle": "Brasil registra mais 88 mortes por Covid em 24 horas; média móvel completa 8 dias abaixo de 200",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/09/brasil-registra-mais-88-mortes-por-covid-em-24-horas-media-movel-completa-8-dias-abaixo-de-200.ghtml",
         "Image": "https://s2.glbimg.com/KDguqAoQuJ5pjBnkI5URaD3769c=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/98/97/10469798",
         "Date": "Há 5 dias"
     },
-    "Notícia 33": {
+    "Notícia 34": {
         "Tittle": "Escrupulosidade: o temor excessivo de não ser bom o suficiente",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/09/escrupulosidade-o-temor-excessivo-de-nao-ser-bom-o-suficiente.ghtml",
         "Image": "https://s2.glbimg.com/dpfpjVp2YmEIxz7uiItJPXmENuY=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/d/i/wxV7KXQi2MpXLe4mo6lA/a-bbc1.jpg",
         "Date": "Há 5 dias"
     },
-    "Notícia 34": {
+    "Notícia 35": {
         "Tittle": "O que acontece quando deixamos bebê 'chorar até dormir'",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/09/o-que-acontece-quando-deixamos-bebe-chorar-ate-dormir.ghtml",
         "Image": "https://s2.glbimg.com/JstqMs_VsGl2BdxcEVjnW9xdLKY=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/1/4/Yqp9JAQ5qjvzBpZpj22w/image001-2-.jpg",
         "Date": "Há 5 dias"
     },
-    "Notícia 35": {
+    "Notícia 36": {
         "Tittle": "Mais de 18 milhões de brasileiros estão com 2ª dose de vacinas contra a Covid atrasada, segundo Ministério da Saúde",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/09/mais-de-18-milhoes-de-brasileiros-estao-com-2a-dose-de-vacinas-contra-a-covid-atrasada-segundo-ministerio-da-saude.ghtml",
         "Image": "https://s2.glbimg.com/eLWT7x4QPQdLhUrN8R4Ydr-mOiY=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/A/x/6LF29HQfi9oDEpZbeOUg/vacina.jpeg",
         "Date": "Há 5 dias"
     },
-    "Notícia 36": {
+    "Notícia 37": {
         "Tittle": "CNPEM desenvolve técnica inovadora e menos invasiva para tratar câncer de próstata",
         "Notice": "https://g1.globo.com/sp/campinas-regiao/noticia/2022/04/09/cnpem-desenvolve-tecnica-inovadora-e-menos-invasiva-para-tratar-cancer-de-prostata.ghtml",
         "Image": "https://s2.glbimg.com/XyzTBcAQ8CuK68aftmb3Ooa8mc8=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Q/t/rReU1kRS6d3Doy6SDzzw/pesquisador-1.jpeg",
         "Date": "Há 5 dias"
     },
-    "Notícia 37": {
+    "Notícia 38": {
         "Tittle": "Média móvel de mortes por Covid no Brasil completa uma semana abaixo de 200",
         "Notice": "https://g1.globo.com/saude/coronavirus/noticia/2022/04/08/media-movel-de-mortes-por-covid-no-brasil-completa-uma-semana-abaixo-de-200.ghtml",
         "Image": "https://s2.glbimg.com/Xs0PkdpTyYWnd0lNcn_I3Sz3pAM=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/44/74/10467444",
         "Date": "Há 6 dias"
     },
-    "Notícia 38": {
+    "Notícia 39": {
         "Tittle": "Vacinação contra a Covid: quase 168 milhões de pessoas estão totalmente imunizadas",
         "Notice": "https://g1.globo.com/saude/coronavirus/vacinas/noticia/2022/04/08/vacinacao-contra-a-covid-quase-168-milhoes-de-pessoas-estao-totalmente-imunizadas.ghtml",
         "Image": "https://s2.glbimg.com/Xs0PkdpTyYWnd0lNcn_I3Sz3pAM=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/44/74/10467444",
         "Date": "Há 6 dias"
     },
-    "Notícia 39": {
+    "Notícia 40": {
         "Tittle": "Por que mesmo casos leves de Covid aumentam o risco de diabetes",
         "Notice": "https://g1.globo.com/saude/noticia/2022/04/08/por-que-mesmo-casos-leves-de-covid-aumentam-o-risco-de-diabetes.ghtml",
         "Image": "https://s2.glbimg.com/WKb-vJN5qclrZEZnpVaZR_T9ucQ=/540x304/top/smart/filters:max_age(3600)/https://s01.video.glbimg.com/deo/vi/27/64/8836427",
-        "Date": "Há 6 dias"
-    },
-    "Notícia 40": {
-        "Tittle": "Cientistas detectam genes que revelam aptidão para dormir pouco e ainda reduzem chance de Alzheimer; entenda",
-        "Notice": "https://g1.globo.com/saude/noticia/2022/04/08/cientistas-detectam-genes-que-revelam-aptidao-para-dormir-pouco-e-ainda-reduzem-chance-de-alzheimer-entenda.ghtml",
-        "Image": "https://s2.glbimg.com/uBKzjhkfueFDDRQpPLmbWq79Dxk=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/h/N/WxqL8aTQix2n11ytQqIA/equilibrio-do-sono.jpg",
         "Date": "Há 6 dias"
     }
 }

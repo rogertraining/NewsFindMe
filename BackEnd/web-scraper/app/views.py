@@ -52,3 +52,6 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
         indice += 1
 
     return jsonify(dicionario), 200
+
+if __name__ == 'main':
+    app.run(host='0.0.0.0')
