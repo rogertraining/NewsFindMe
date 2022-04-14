@@ -3,7 +3,7 @@ import { UsersPostgresRepository } from "../repositories/postgres/UsersPostgresR
 import bcrypt from "bcrypt"
 
 export async function createUserHandler(request, response) {
-  const { firstname, lastname, email, password } = request.body
+  const { firstname, lastname, email, password, preferences } = request.body
   
   const repository = 
     await UsersInMemoryRepository.getInstance()
@@ -13,7 +13,8 @@ export async function createUserHandler(request, response) {
   const createdUser = await repository.create({ 
     firstname, 
     lastname, 
-    email, 
+    email,
+    preferences,
     password: hashedPassword 
   })
 
@@ -22,6 +23,7 @@ export async function createUserHandler(request, response) {
     firstname: createdUser.firstname,
     lastname: createdUser.lastname,
     email: createdUser.email,
+    preferences: createdUser.preferences,
     created_at: createdUser.created_at
   })
 }

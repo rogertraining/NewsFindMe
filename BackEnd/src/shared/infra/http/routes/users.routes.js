@@ -16,6 +16,7 @@ usersRoutes.post(
       firstname: Joi.string().min(3).max(30).required(),
       lastname: Joi.string().min(4).max(55).required(),
       email: Joi.string().email().min(8).max(30).required(),
+      preferences: Joi.array().items(Joi.string()).min(1).required(),
       password: Joi.string().min(6).max(25).required()
     })
   }),
