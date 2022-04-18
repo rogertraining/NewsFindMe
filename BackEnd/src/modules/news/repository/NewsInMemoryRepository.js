@@ -17,7 +17,7 @@ export class NewsInMemoryRepository {
     if (newsData.length !== 0) {
       newsData.forEach(newsObject => {
         const [,news] = newsObject
-        console.log(news.Notice.contains(preferences[0]))
+        
         const newsToBeSaved = new News()
         Object.assign(newsToBeSaved, {
           title: news.Tittle,

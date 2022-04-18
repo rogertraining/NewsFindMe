@@ -1,13 +1,16 @@
+from operator import imod
 from app import app
 import json
 import requests
 from bs4 import BeautifulSoup
 from flask import jsonify, request
+from flask_cors import CORS, cross_origin
 
 app.config['JSON_SORT_KEYS'] = False
 app.config['JSON_AS_ASCII'] = False
 
 @app.route('/noticias', methods=['POST'])
+@cross_origin(supports_credentials=True)
 def home():
     noticias = scraper('div', 'feed-post-body', 'img', 'bstn-fd-picture-image', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'a', 'feed-post-link gui-color-primary gui-color-hover', 'span', 'feed-post-datetime')
 
