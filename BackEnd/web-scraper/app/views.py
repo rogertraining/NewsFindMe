@@ -49,12 +49,12 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
                     except:
                         link_imagem = '0'
                     
-                    dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
+                    dicionario.update({f'Notícia {num} - {preferencia[indice]}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
         indice += 1
 
     return jsonify(dicionario), 200
 
-if __name__ == 'main':
+if __name__ == '__main__':
     app.run(host='0.0.0.0')
