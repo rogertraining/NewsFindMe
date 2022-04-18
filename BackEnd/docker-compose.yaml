@@ -31,7 +31,9 @@ services:
       - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
       - POSTGRES_HOST=postgres_database
       - POSTGRES_USER=$POSTGRES_USER
+      - WEB_SCRAPPER_URL=web_scraper_container
     volumes:
+      - .:/home/node/newsfindme-api
       - node_modules:/home/node/newsfindme-api/node_modules
     command: npm run dev
     
@@ -41,15 +43,18 @@ services:
       context: ./web-scraper/.
     networks:
       - app-network
+    volumes:
+      - ./web-scraper/:/app
     ports:
       - 56733:80
     
-
+ 
 volumes:
   db-data:
     driver: local 
   node_modules:
-
+  scraper_app:
+  
 networks:
   app-network:
     driver: bridge

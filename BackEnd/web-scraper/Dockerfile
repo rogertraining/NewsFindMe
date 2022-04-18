@@ -8,4 +8,4 @@ COPY ./app/views.py /var/www/app/views.py
 RUN pip install -r /var/www/requirements.txt
 RUN pip3 install requests
 RUN pip install beautifulsoup4
-EXPOSE 56733
+RUN pip install -U flask-cors
