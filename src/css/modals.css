@@ -395,6 +395,11 @@ input[type=submit]:hover {
     padding: 30px 30px;
 }
 
+.modal-container .action{
+    display: flex;
+    margin-top: 10px;
+}
+
 .modal-container .close{
     width: 30px;
     height: 30px;

@@ -99,6 +99,10 @@ body{
     position: relative;
 }
 
+.tab{
+    display: none;
+}
+
 @media (min-width: 768px){
     .main-section{
         display: flex;
