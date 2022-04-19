@@ -1,31 +1,109 @@
-import { randomUUID } from "crypto"
-import knexClient from "../../../../shared/infra/database/knex-client.js";
-import { User } from "../../models/User.js"
+import { PrismaClient } from "@prisma/client"
+const prisma = new PrismaClient()
+import bcrypt from "bcryptjs"
 
-export class UsersPostgresRepository {
-  constructor() {
-    this._repository = knexClient("users")
-  }
-  static getInstance() {
-    if (!this.INSTANCE) {
-      this.INSTANCE = new UsersPostgresRepository();
+export default {
+    async createUser(request, response) {
+        try {
+            const { firstname, lastname, email, password } = request.body
+
+            let user = await prisma.user.findUnique({ where: { email } })
+
+            if (user) {
+                return response.json({ error: "Já existe um usuario com esse e-mail" })
+            }
+
+            const salt = bcrypt.genSaltSync(10)
+            const hashedPassword = bcrypt.hashSync(password, salt)
+
+            await prisma.user.create({
+                data: {
+                    firstname,
+                    lastname,
+                    email,
+                    password: hashedPassword
+                }
+            })
+            return response.json({ message: "Usuário cadastrado com sucesso" })
+
+        } catch (error) {
+            return response.json(error)
+        }
+
+    },
+
+    async findAllUsers(request, response) {
+        try {
+            const users = await prisma.user.findMany()
+
+            return response.json(users)
+        } catch (error) {
+            return response.json(error)
+        }
+    },
+
+    async findUser(request, response) {
+        try {
+            const { id } = request.params
+
+            const user = await prisma.user.findUnique({
+                where: {
+                    id: Number(id)
+                }
+            })
+            if (!user) {
+                return response.json({ error: "Não foi possivel encontrar esse usuário" })
+            }
+            return response.json(user)
+        } catch (error) {
+            return response.json(error)
+        }
+    },
+
+    async updateUser(request, response) {
+        try {
+            const { id } = request.params
+            const { firstname, lastname, email, password } = request.body
+
+            let user = await prisma.user.findUnique({ where: { id: Number(id) } })
+
+            if (!user) {
+                return response.json({ error: "Não foi possivel encontrar esse usuário" })
+            }
+
+            user = await prisma.user.update({
+                where: {
+                    id: Number(id)
+                },
+                data: {
+                    firstname,
+                    lastname,
+                    email,
+                    password
+                }
+            })
+        } catch (error) {
+            return response.json(error)
+        }
+    },
+
+    async deleteUser(request, response) {
+        try {
+            const { id } = request.params
+
+            const user = await prisma.user.delete({
+                where: {
+                    id: Number(id)
+                }
+            })
+
+            if (!user) {
+                return response.json({ error: "Não foi possivel encontrar esse usuário" })
+            }
+
+            return response.json({ message: "Usuário deletado" })
+        } catch (error) {
+            return response.json(error)
+        }
     }
-    return this.INSTANCE;
-  }
-
-  async create({ firstname, lastname, email, password } = userData) {
-    const user = new User(randomUUID, firstname, lastname, email, password)
-
-    const created = await knexClient("users").insert({
-      id: user.id,
-      firstname,
-      lastname,
-      email,
-      password,
-      created_at: user.created_at
-    });
-    
-    return created
-  }
-
 }
