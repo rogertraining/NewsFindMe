@@ -13,10 +13,10 @@ export async function getCustomNewsHandler(request, response) {
       throw new AppError(400, { message: err.message })
     })
   const newsData = Object.entries(newsRequest.data)
-  console.log(newsData[1][0])
+  
   const repository = NewsInMemoryRepository.getInstance()
 
   const savedNews = repository.create(newsData, preferences)
-
+a
   return response.status(201).send(savedNews)
 }

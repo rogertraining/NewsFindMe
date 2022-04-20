@@ -6,6 +6,7 @@ import { getUserByIdHandler } from "../../../../modules/users/handlers/getUserBy
 import { deleteUserHandler } from "../../../../modules/users/handlers/deleteUserHandler.js"
 import { updateUserHandler } from "../../../../modules/users/handlers/updateUserHandler.js"
 import { getAllUsersHandler } from "../../../../modules/users/handlers/getAllUsersHandler.js";
+import { createUserHandlerPostgres } from "../../../../modules/users/handlers/createUserHandlerPostgres.js";
 
 const usersRoutes = Router();
 
@@ -22,6 +23,8 @@ usersRoutes.post(
   }),
   createUserHandler
 );
+
+usersRoutes.post("/test", createUserHandlerPostgres)
 
 usersRoutes.get("/", getAllUsersHandler)
 

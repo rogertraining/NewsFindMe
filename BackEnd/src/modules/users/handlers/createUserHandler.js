@@ -1,5 +1,5 @@
 import { UsersInMemoryRepository } from "../repositories/in-memory/UsersInMemoryRepository.js"
-import { UsersPostgresRepository } from "../repositories/postgres/UsersPostgresRepository.js"
+//import { UsersPostgresRepository } from "../repositories/postgres/UsersPostgresRepository.js"
 import bcrypt from "bcrypt"
 
 export async function createUserHandler(request, response) {

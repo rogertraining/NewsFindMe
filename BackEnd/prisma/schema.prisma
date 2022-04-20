@@ -11,32 +11,37 @@ datasource db {
 }
 
 model User {
-  id         Int             @id @default(autoincrement())
-  firstname  String
-  lastname   String
-  email      String          @unique
-  password   String
-  created_at DateTime        @default(now())
-  categories User_Category[]
-  news       User_News[]
+  id          String          @id @db.Uuid
+  firstname   String
+  lastname    String
+  email       String          @unique
+  password    String
+  created_at  DateTime        @default(now())
+  preferences User_Category[]
+  news        User_News[]
 }
 
 model Category {
   id    Int             @id @default(autoincrement())
   name  String
+  news  News[]
   users User_Category[]
 }
 
 model News {
-  id       Int         @id @default(autoincrement())
-  title    String
-  postedAt DateTime
-  user     User_News[]
+  id         String      @id @db.Uuid
+  title      String
+  link       String
+  image_url  String
+  posted_at  DateTime
+  category   Category    @relation(fields: [categoryId], references: [id])
+  categoryId Int
+  user       User_News[]
 }
 
 model User_Category {
   user       User     @relation(fields: [userId], references: [id])
-  userId     Int
+  userId     String   @db.Uuid
   category   Category @relation(fields: [categoryId], references: [id])
   categoryId Int
 
@@ -44,10 +49,10 @@ model User_Category {
 }
 
 model User_News {
-  user   User @relation(fields: [userId], references: [id])
-  userId Int
-  news   News @relation(fields: [newsId], references: [id])
-  newsId Int
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @db.Uuid
+  news   News   @relation(fields: [newsId], references: [id])
+  newsId String @db.Uuid
 
   @@id([userId, newsId])
 }
