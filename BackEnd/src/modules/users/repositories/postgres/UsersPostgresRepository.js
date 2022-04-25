@@ -1,6 +1,7 @@
 import Prisma from "@prisma/client"
 import bcrypt from "bcrypt"
 import { randomUUID } from "crypto";
+import { defineUserPreferencesPrismaParams } from "./utils/defineUserPreferencesPrismaParams.js";
 
 const { PrismaClient } = Prisma
 
@@ -24,22 +25,14 @@ export class UsersPostgresRepository {
     password, 
     preferences
   }) {
-    const preferences_prisma_params = []
+    const preferences_prisma_params = 
+      defineUserPreferencesPrismaParams(preferences)
 
-    preferences.forEach(preference => {
-      const param = {
-        category: {
-          connect: {
-            id: preference.id
-          }
-        }
-      }
-      preferences_prisma_params.push(param)
-    })
+    const userId = randomUUID()
 
-    const userCount = await this._repository.user.create({
+    await this._repository.user.create({
       data: {
-        id: randomUUID,
+        id: userId,
         email,
         firstname,
         lastname,
@@ -49,11 +42,29 @@ export class UsersPostgresRepository {
           create: preferences_prisma_params
         },
       }
-    })
+    });
 
-    
+    const createdUser = await this.findById(userId)
+
+    return createdUser
   }
   
+  async findById(id) {
+    const user = this._repository.user.findUnique({
+      where: {
+        id,
+      },
+      include:{
+        preferences: true,
+      }
+    });
+
+    return user
+  }
+
+  async findAllUsers() {
+    return this._repository.user.findMany();
+  }
 }
     // async findAllUsers(request, response) {
     //     try {

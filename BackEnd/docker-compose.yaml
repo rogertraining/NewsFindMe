@@ -31,7 +31,7 @@ services:
       - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
       - POSTGRES_HOST=postgres_database
       - POSTGRES_USER=$POSTGRES_USER
-      - WEB_SCRAPPER_URL=web_scraper_container
+      - WEB_SCRAPPER_URL=web_scraper_container:80
     volumes:
       - .:/home/node/newsfindme-api
       - node_modules:/home/node/newsfindme-api/node_modules

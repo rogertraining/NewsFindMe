@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "prisma": {
+    "seed": "node prisma/seeds/seed.js"
+  },
   "scripts": {
     "dev": "NODE_ENV=development NODE_OPTIONS=--experimental-json-modules nodemon ./src/main.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache",

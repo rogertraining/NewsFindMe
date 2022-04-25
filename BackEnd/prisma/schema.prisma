@@ -23,20 +23,19 @@ model User {
 
 model Category {
   id    Int             @id @default(autoincrement())
-  name  String
-  news  News[]
+  name  String          @unique
+  news  Category_News[]
   users User_Category[]
 }
 
 model News {
-  id         String      @id @db.Uuid
-  title      String
-  link       String
-  image_url  String
-  posted_at  DateTime
-  category   Category    @relation(fields: [categoryId], references: [id])
-  categoryId Int
-  user       User_News[]
+  id        String          @id @db.Uuid
+  title     String
+  link      String
+  image_url String
+  posted_at DateTime
+  category  Category_News[]
+  user      User_News[]
 }
 
 model User_Category {
@@ -55,4 +54,13 @@ model User_News {
   newsId String @db.Uuid
 
   @@id([userId, newsId])
+}
+
+model Category_News {
+  category   Category @relation(fields: [categoryId], references: [id])
+  categoryId Int
+  news       News     @relation(fields: [newsId], references: [id])
+  newsId     String   @db.Uuid
+
+  @@id([categoryId, newsId])
 }
