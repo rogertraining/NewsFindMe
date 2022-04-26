@@ -6,7 +6,11 @@
 @import url('_button.css');
 @import url('_feature.css');
 @import url('_footer.css');
+<<<<<<< HEAD
 @import url('_modal.css');
+=======
+@import url('_modals.css');
+>>>>>>> d6114c3abd91bfc9901a9d57f318ca2859064c94
 @import url('_input.css');
 
 /* Media */
