@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --color-main:           #1F1C2E;
+    --color-main-21:        #272A45;
+    --color-secondary:      #A4A4A4;
+    --color-secondary-29:   #4A4A4A;
+    --color-background:     #E6E6E6;
+
+    --color-input: #5fa8d3;
+
+    --font-color: #FFFFFF;
+    --font-family: 'DM Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Fluid Text */
+html{ font-size: 62.5%; }
+body{ font-size: 1.6rem; }
+
+button{
+    all: unset;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-main);
+    font-family: var(--font-family);
+}
+
+#root{
+    width: 100vw;
+    min-height: 100vh;
+}

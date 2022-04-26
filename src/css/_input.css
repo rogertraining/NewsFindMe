@@ -1,0 +1,37 @@
+.input-form {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-form>.field {
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+    padding-left: 9px;
+    height: 50px;
+    width: 95%;
+    outline: none;
+    transition: border ease-in 0.2s;
+}
+
+.input-form>.label {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    color: var(--color-secondary);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-form>.field:focus,
+.input-form>.field:valid {
+    border: 2px solid var(--color-input);
+}
+
+.input-form>.field:focus+.label,
+.input-form>.field:valid+.label {
+    transform: translateY(-170%);
+    font-size: 1.4rem;
+    color: var(--color-input);
+    background-color: white;
+    padding: 0 7px 0 7px;
+}
