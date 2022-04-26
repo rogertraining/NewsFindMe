@@ -1,0 +1,8 @@
+.footer-section{
+    background-color: var(--color-main);
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+    clear: both;
+    position: relative;
+}

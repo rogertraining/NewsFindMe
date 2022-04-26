@@ -170,62 +170,8 @@
                <button class="button-link" id="bt-prev" onclick="nextPrev(-1)">Anterior</button>
                <button class="button-main -small" id="bt-next" onclick="nextPrev(1)">Próximo</button>
             </div>
-
          </form>
       </div>
-
-      <section id="modal-login" class="entrar-container" include="./content/modal-login.html">
-         <div class="modal">
-            <button id="bt-fechar">&#10006;</button>
-
-            <h1>Entrar</h1>
-            <p>Seja bem-vindo de volta</p>
-
-            <form class="form-entrar" id="form-entrar">
-               <label for="email-entrar" class="lb-esquerdo">Email</label>
-               <input name="email-entrar" type="email" required placeholder="seuemail@dominio.com" id="email-entrar"
-                  class="input input-inteiro">
-
-               <label for="senha-entrar" class="lb-esquerdo">Senha</label>
-               <input name="senha-entrar" type="password" required placeholder="******" id="senha-entrar"
-                  class="input input-inteiro">
-
-               <input type="submit" id="bt-confirma-entrada" value="ENTRAR" class="enviar-formulario">
-            </form>
-
-            <button id="bt-modal-recuperacao">Esqueceu a senha?</button>
-
-            <hr id="linha">
-
-            <button id="bt-modal-cadastro2">CADASTRE-SE</button>
-         </div>
-      </section>
-
-      <section id="modal-recovery" class="recuperacao-container" include="./content/modal-recuperacao.html">
-         <div class="modal">
-            <button id="bt-fechar">&#10006;</button>
-
-            <h1>Não tem problema!</h1>
-            <p>Digite seu email para que possamos encontrar sua conta</p>
-
-            <form>
-               <label for="email-recuperacao" class="lb-esquerdo">Email</label>
-               <input type="email" required placeholder="seuemail@dominio.com" id="email-recuperacao"
-                  class="input input-inteiro">
-
-               <input type="submit" value="PRÓXIMO">
-            </form>
-         </div>
-      </section>
-
-      <section id="modal-choices" class="interesses-container" include="./content/modal-choices.html">
-         <div class="modal">
-            <button id="bt-fechar">&#10006;</button>
-
-
-
-         </div>
-      </section>
    </div>
    <script src="./js/modals.js" defer></script>
    <script src="./js/form-data.js" defer></script>

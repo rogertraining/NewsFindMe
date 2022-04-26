@@ -1,0 +1,43 @@
+@media (min-width: 768px){
+    .main-section{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+        min-height: 90vh;
+    }
+
+    .main-section > .infos{
+    }
+
+    .main-section > .illustration{
+        width: 50%;
+    }
+
+    .footer-section{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1024px){
+    html{
+        font-size: 70%;
+    }
+
+    .main-section{
+        margin: auto;
+        
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-section > .infos > .title{
+        font-size: 4.2rem;
+        margin-bottom: 0;
+    }
+
+    .main-section > .infos > .buttons{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
