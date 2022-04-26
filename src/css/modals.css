@@ -296,68 +296,68 @@ input[type=submit]:hover {
     border-radius: 20px;
 }
 
-#bt-futebol {
+#bt-agro {
     background: #C8F6DC;
 }
 
-#bt-nba {
+#bt-ciencia {
     background: #F5DBAE;
 }
 
-#bt-entretenimento {
+#bt-economia {
     background: #C7D7F5;
 }
 
-#bt-ciencias {
+#bt-educacao {
     background: #F5A395;
 }
 
-#bt-programacao {
+#bt-empreendedorismo {
    background: #D9C8F6;
 }
 
-#bt-hacktivismo {
+#bt-fato-ou-fake {
    background: #AEF5B9;
 }
 
-#bt-culinaria {
+#bt-inovacao {
    background: #F5C7C7;
 }
 
-#bt-eventos {
+#bt-loterias {
    background: #DCF595;
 }
 
-#bt-politica {
+#bt-meio-ambiente {
    background: #F6C8C8;
 }
 
-#bt-astronomia {
+#bt-mundo {
    background: #F5F2AE;
 }
 
-#bt-games {
+#bt-politica {
    background: #CDF5C7;
 }
 
-#bt-cinema {
+#bt-pop-e-arte {
    background: #95EFF5;
-}
-
-#bt-celebridades {
-   background: #C9C8F6;
 }
 
 #bt-saude {
    background: #F4AEF5;
 }
 
-#bt-negocios {
+#bt-tecnologia {
    background: #F5C7C7;
 }
 
-#bt-economia {
+#bt-trabalho-e-carreira {
    background: #F5DA95;
+}
+
+#bt-turismo-e-viagem {
+   background: #C9C8F6;
 }
 
 /*==============================================================*/
