@@ -8,7 +8,7 @@
     border-radius: 5px;
     padding-left: 9px;
     height: 50px;
-    width: 95%;
+    width: 100%;
     outline: none;
     transition: border ease-in 0.2s;
 }
@@ -34,4 +34,37 @@
     color: var(--color-input);
     background-color: white;
     padding: 0 7px 0 7px;
+}
+
+.checkbox-container{
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Checkbox */
+.checkbox-form{
+    color: var(--color-main);
+    margin:4px;
+    border-radius:20px;
+    background-color: #AEFAF9;
+}
+
+.checkbox-form > .wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-form .label{
+    text-align:center;
+    padding:23px 0;
+    width:139px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.checkbox-form .input:checked + .label{
+    border: 3px solid var(--color-main);
+    border-radius: 20px;
 }
