@@ -44,9 +44,15 @@ function getData(){
     })
 
     data['interests'] = checked
-    console.log(data)
+    sendData(data)
 }
 
 function sendData(data){
-
+    fetch('http://localhost:3000/user', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+            "Content-Type": "application/json; charset=utf-8",
+        },
+    })
 }
