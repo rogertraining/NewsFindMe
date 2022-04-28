@@ -1,5 +1,6 @@
 /* Getting the elements */
 const register = document.querySelector('#bt-modal-cadastro');
+console.log()
 const registerNext = document.querySelector('#bt-confirmar');
 
 const login = document.querySelector('#bt-modal-entrar');
