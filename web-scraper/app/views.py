@@ -31,7 +31,7 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
     indice = 0
     ultima_pagina = 5
     num = 0
-    dicionario = {}
+    dicionario = {"Notícia 0": {'Tittle': 'teste'}}
     while indice < len(preferencia):
         for i in range(1, ultima_pagina):
             url_pag = f'https://g1.globo.com/{preferencia[indice]}/index/feed/pagina-{i}.ghtml'
@@ -53,8 +53,8 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
                         link_imagem = noticia.find(f'{tag_img}', class_=f'{classe_img}').get('src')
                     except:
                         link_imagem = '0'
-                    
-                    if dicionario['Tittle'] == titulo:
+
+                    if dicionario[f'Notícia {num - 1}']['Tittle'] == titulo:
                         continue
                     else:
                         dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
@@ -63,3 +63,5 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
         indice += 1
 
     return jsonify(dicionario), 200
+"""                     if num == 1:
+                        dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}}) """
