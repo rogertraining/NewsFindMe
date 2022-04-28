@@ -6,178 +6,184 @@
 <html>
 
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>NewsFindMe</title>
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="./css/main.css">
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NewsFindMe</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-   <div id="root">
-      <div class="main-section" data-include="feature">
-         <div class="infos">
-            <h1 class="title">NewsFindMe</h1>
-            <h2 class="subtitle">Seu portal de notícias personalizado</h2>
-            <p class="paragraph">
-               Agora você pode ter todas as suas prefêrencias em um só lugar, para sempre se manter atualizado. Faça o
-               cadastro, escolha os temas de sua prefêrencia e tenha as notícias de acordo com os seus gostos sempre que
-               quiser, atualizadas em tempo real
-            </p>
-            <div class="buttons" id="bts-landing">
-               <button class="button-main" id="bt-modal-cadastro">Cadastre-se</button>
-               <button class="button-secondary" id="bt-modal-entrar">Entrar</button>
-            </div>
-         </div>
-         <img class="illustration" src="./img/illustration.svg" alt="lendo notícia">
-      </div>
+	<div id="root">
+		<div class="main-section" data-include="feature">
+			<div class="infos">
+				<h1 class="title">NewsFindMe</h1>
+				<h2 class="subtitle">Seu portal de notícias personalizado</h2>
+				<p class="paragraph">
+					Agora você pode ter todas as suas prefêrencias em um só lugar, para sempre se manter atualizado.
+					Faça o
+					cadastro, escolha os temas de sua prefêrencia e tenha as notícias de acordo com os seus gostos
+					sempre que
+					quiser, atualizadas em tempo real
+				</p>
+				<div class="buttons" id="bts-landing">
+					<button class="button-main" id="bt-modal-cadastro">Cadastre-se</button>
+					<button class="button-secondary" id="bt-modal-entrar">Entrar</button>
+				</div>
+			</div>
+			<img class="illustration" src="./img/illustration.svg" alt="lendo notícia">
+		</div>
 
-      <footer class="footer-section"></footer>
+		<footer class="footer-section"></footer>
 
-      <div class="modal-container" id="modal-register">
-         <form class="wrapper" id="register">
-            <button class="close" id="modal-close">&#10006;</button>
-            <div class="tab">
-               <h1 class="title">Bem-vindo!</h1>
-               <p class="paragraph">Digite seus dados para que possamos te cadastrar</p>
-               <div class="group">
-                  <div class="input-form">
-                     <input class="field" name="firstname" type="text" required autocomplete="off">
-                     <label class="label">Nome</label>
-                  </div>
+		<div class="modal-container" id="modal-register">
+			<form class="wrapper" id="register" action="http://localhost:3000/user">
+				<button class="close" id="modal-close">&#10006;</button>
 
-                  <div class="input-form">
-                     <input class="field" name="lastname" type="text" required autocomplete="off">
-                     <label class="label">Sobrenome</label>
-                  </div>
-               </div>
+				<!-- Step 1 -->
+				<div class="tab">
+					<h1 class="title">Bem-vindo!</h1>
+					<p class="paragraph">Digite seus dados para que possamos te cadastrar</p>
+					<div class="group">
+						<div class="input-form">
+							<input class="field" name="firstname" type="text" required autocomplete="off">
+							<label class="label">Nome</label>
+						</div>
 
-               <div class="input-form">
-                  <input class="field" name="email" type="email" required autocomplete="off">
-                  <label class="label">Email</label>
-               </div>
+						<div class="input-form">
+							<input class="field" name="lastname" type="text" required autocomplete="off">
+							<label class="label">Sobrenome</label>
+						</div>
+					</div>
 
-               <div class="input-form">
-                  <input class="field" name="password" type="password" required autocomplete="off">
-                  <label class="label">Password</label>
-               </div>
-            </div>
+					<div class="input-form">
+						<input class="field" name="email" type="email" required autocomplete="off">
+						<label class="label">Email</label>
+					</div>
 
-            <div class="tab">
-               <h1 class="title">Nos diga seus interesses</h1>
-               <p class="paragraph">Selecione pelo menos um interesse. Isso irá nos ajudar a reunir as melhores
-                  informações para você.</p>
-               <div id="form-interesses">
-                  <div id="bt-agro">
-                     <label>
-                        <input type="checkbox" hidden value="agro"><span>Agro</span>
-                     </label>
-                  </div>
+					<div class="input-form">
+						<input class="field" name="password" type="password" required autocomplete="off">
+						<label class="label">Password</label>
+					</div>
+				</div>
 
-                  <div id="bt-ciencia">
-                     <label>
-                        <input type="checkbox" hidden value="ciencia"><span>Ciência</span>
-                     </label>
-                  </div>
+				<!-- Step 2 -->
+				<div class="tab">
+					<h1 class="title">Nos diga seus interesses</h1>
+					<p class="paragraph">Selecione pelo menos um interesse. Isso irá nos ajudar a reunir as melhores
+						informações para você.</p>
+					<div id="form-interesses">
+						<div id="bt-agro">
+							<label>
+								<input type="checkbox" hidden value="agro"><span>Agro</span>
+							</label>
+						</div>
 
-                  <div id="bt-economia">
-                     <label>
-                        <input type="checkbox" hidden value="economia"><span>Economia</span>
-                     </label>
-                  </div>
+						<div id="bt-ciencia">
+							<label>
+								<input type="checkbox" hidden value="ciencia"><span>Ciência</span>
+							</label>
+						</div>
 
-                  <div id="bt-educacao">
-                     <label>
-                        <input type="checkbox" hidden value="educacao"><span>Educação</span>
-                     </label>
-                  </div>
+						<div id="bt-economia">
+							<label>
+								<input type="checkbox" hidden value="economia"><span>Economia</span>
+							</label>
+						</div>
 
-                  <div id="bt-empreendedorismo">
-                     <label>
-                        <input type="checkbox" hidden value="empreendedorismo"><span>Empreendedorismo</span>
-                     </label>
-                  </div>
+						<div id="bt-educacao">
+							<label>
+								<input type="checkbox" hidden value="educacao"><span>Educação</span>
+							</label>
+						</div>
 
-                  <div id="bt-fato-ou-fake">
-                     <label>
-                        <input type="checkbox" hidden value="fato-ou-fake"><span>Fato ou Fake</span>
-                     </label>
-                  </div>
+						<div id="bt-empreendedorismo">
+							<label>
+								<input type="checkbox" hidden value="empreendedorismo"><span>Empreendedorismo</span>
+							</label>
+						</div>
 
-                  <div id="bt-inovacao">
-                     <label>
-                        <input type="checkbox" hidden value="inovacao"><span>Inovação</span>
-                     </label>
-                  </div>
+						<div id="bt-fato-ou-fake">
+							<label>
+								<input type="checkbox" hidden value="fato-ou-fake"><span>Fato ou Fake</span>
+							</label>
+						</div>
 
-                  <div id="bt-loterias">
-                     <label>
-                        <input type="checkbox" hidden value="eventos"><span>Loterias</span>
-                     </label>
-                  </div>
+						<div id="bt-inovacao">
+							<label>
+								<input type="checkbox" hidden value="inovacao"><span>Inovação</span>
+							</label>
+						</div>
 
-                  <div id="bt-meio-ambiente">
-                     <label>
-                        <input type="checkbox" hidden value="meio-ambiete"><span>Meio Ambiente</span>
-                     </label>
-                  </div>
+						<div id="bt-loterias">
+							<label>
+								<input type="checkbox" hidden value="eventos"><span>Loterias</span>
+							</label>
+						</div>
 
-                  <div id="bt-mundo">
-                     <label>
-                        <input type="checkbox" hidden value="mundo"><span>Mundo</span>
-                     </label>
-                  </div>
+						<div id="bt-meio-ambiente">
+							<label>
+								<input type="checkbox" hidden value="meio-ambiete"><span>Meio Ambiente</span>
+							</label>
+						</div>
 
-                  <div id="bt-politica">
-                     <label>
-                        <input type="checkbox" hidden value="politica"><span>Política</span>
-                     </label>
-                  </div>
+						<div id="bt-mundo">
+							<label>
+								<input type="checkbox" hidden value="mundo"><span>Mundo</span>
+							</label>
+						</div>
 
-                  <div id="bt-pop-e-arte">
-                     <label>
-                        <input type="checkbox" hidden value="pop-e-arte"><span>Pop & Arte </span>
-                     </label>
-                  </div>
+						<div id="bt-politica">
+							<label>
+								<input type="checkbox" hidden value="politica"><span>Política</span>
+							</label>
+						</div>
 
-                  <div id="bt-saude">
-                     <label>
-                        <input type="checkbox" hidden value="saude"><span>Saúde</span>
-                     </label>
-                  </div>
+						<div id="bt-pop-e-arte">
+							<label>
+								<input type="checkbox" hidden value="pop-e-arte"><span>Pop & Arte </span>
+							</label>
+						</div>
 
-                  <div id="bt-tecnologia">
-                     <label>
-                        <input type="checkbox" hidden value="tecnologia"><span>Tecnologia</span>
-                     </label>
-                  </div>
+						<div id="bt-saude">
+							<label>
+								<input type="checkbox" hidden value="saude"><span>Saúde</span>
+							</label>
+						</div>
 
-                  <div id="bt-trabalho-e-carreira">
-                     <label>
-                        <input type="checkbox" hidden value="trabalho-e-carreira"><span>Trabalho e Carreira</span>
-                     </label>
-                  </div>
+						<div id="bt-tecnologia">
+							<label>
+								<input type="checkbox" hidden value="tecnologia"><span>Tecnologia</span>
+							</label>
+						</div>
 
-                  <div id="bt-turismo-e-viagem">
-                     <label>
-                        <input type="checkbox" hidden value="turismo-e-viagem"><span>Turismo e Viagem</span>
-                     </label>
-                  </div>
-               </div>
-            </div>
+						<div id="bt-trabalho-e-carreira">
+							<label>
+								<input type="checkbox" hidden value="trabalho-e-carreira"><span>Trabalho e
+									Carreira</span>
+							</label>
+						</div>
 
-            <div class="action">
-               <button class="button-link" id="bt-prev" onclick="nextPrev(-1)">Anterior</button>
-               <button class="button-main -small" id="bt-next" onclick="nextPrev(1)">Próximo</button>
-            </div>
-         </form>
-      </div>
-   </div>
-   <script src="./js/modals.js" async></script>
-   <script src="./js/form-data.js" defer></script>
-   <script src="./js/register.js" defer></script>
+						<div id="bt-turismo-e-viagem">
+							<label>
+								<input type="checkbox" hidden value="turismo-e-viagem"><span>Turismo e Viagem</span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="action">
+					<button type="button" class="button-link" id="bt-prev" onclick="nextPrev(-1)">Anterior</button>
+					<button type="button" class="button-main -small" id="bt-next" onclick="nextPrev(1)">Próximo</button>
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<script src="./js/modals.js" async></script>
+	<script src="./js/form-data.js" defer></script>
+	<script src="./js/register.js" defer></script>
 </body>
 
 </html>
