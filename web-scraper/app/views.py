@@ -30,7 +30,7 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
     preferencia = retorna_preferencias()
     indice = 0
     ultima_pagina = 5
-    num = 0
+    num = 1
     dicionario = {}
     dicionario_noticias = {}
     while indice < len(preferencia):
@@ -42,7 +42,6 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
 
             with open(r'noticias.json', 'w', newline='', encoding='UTF-8') as arquivo:
                 for noticia in noticias_g1:
-                    num += 1
                     titulo = noticia.find(f'{tag_tittle}', class_=f'{classe_tittle}').get_text().strip()
                     titulo = titulo.replace('\n', '')
                     classe_noticia = noticia.find(f'{tag_link}', class_=f'{classe_link}')
@@ -59,9 +58,10 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
 
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
+                for key, value in dicionario.items():
+                    if value not in dicionario_noticias.values():
+                        dicionario_noticias[key] = value
+                    num += 1
         indice += 1
-    for key, value in dicionario.items():
-        if value not in dicionario_noticias.values():
-            dicionario_noticias[key] = value
 
     return jsonify(dicionario_noticias), 200
