@@ -38,7 +38,7 @@
 		<footer class="footer-section"></footer>
 
 		<div class="modal-container" id="modal-register">
-			<form class="wrapper" id="register" action="http://localhost:3000/user">
+			<form class="wrapper" id="register">
 				<button class="close" id="modal-close">&#10006;</button>
 
 				<!-- Step 1 -->
@@ -73,7 +73,7 @@
 					<h1 class="title">Nos diga seus interesses</h1>
 					<p class="paragraph">Selecione pelo menos um interesse. Isso irá nos ajudar a reunir as melhores
 						informações para você.</p>
-					<div class="checkbox-container">
+					<div class="checkbox-container" id="interests">
 						<div class="checkbox-form" id="bt-agro">
 							<label class="wrapper">
 								<input class="input" type="checkbox" hidden value="agro">
@@ -97,7 +97,7 @@
 
 						<div class="checkbox-form" id="bt-educacao">
 							<label class="wrapper">
-								<input class="input" type="checkbox" hidden value="educacao">
+								<input class="input" type="checkbox" value="educacao">
 								<span class="label">Educação</span>
 							</label>
 						</div>
@@ -197,7 +197,7 @@
 		
 	</div>
 	<script src="./js/modals.js" async></script>
-	<script src="./js/form-data.js" defer></script>
+	<!-- <script src="./js/form-data.js" defer></script> -->
 	<script src="./js/register.js" defer></script>
 </body>
 

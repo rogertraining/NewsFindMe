@@ -1,4 +1,9 @@
 const form = document.querySelector('#register')
+const textFields = [...form.querySelectorAll('[name]')]
+const checkboxFields = form.querySelectorAll('input[type="checkbox"]')
+
+console.log(document.getElementById('interests').elements)
+
 const tabs = document.querySelectorAll('.tab')
 const buttonPrev = document.querySelector('#bt-prev')
 const buttonNext = document.querySelector('#bt-next')
@@ -20,9 +25,28 @@ function nextPrev(step){
     tabs[currentTab].style.display = 'none'
     currentTab += step;
     if(currentTab >= tabs.length){
-        form.submit()
+        getData()
         return false
     }
     
     showTab(currentTab)
+}
+
+function getData(){
+    let data = {}
+    textFields.forEach(field => {
+        data[field.name] = field.value
+    })
+    
+    let checked = {}
+    checkboxFields.forEach(field => {
+        if(field.checked) checked[field.value] = field.value
+    })
+
+    data['interests'] = checked
+    console.log(data)
+}
+
+function sendData(data){
+
 }
