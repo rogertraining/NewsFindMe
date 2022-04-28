@@ -54,11 +54,10 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
                     except:
                         link_imagem = '0'
                     
-                    for tittle in dicionario:
-                        if tittle == titulo:
-                            continue
-                        else:
-                            dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
+                    if dicionario['Tittle'] == titulo:
+                        continue
+                    else:
+                        dicionario.update({f'Notícia {num}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
         indice += 1
