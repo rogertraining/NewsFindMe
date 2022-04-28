@@ -56,12 +56,13 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
 
                     dicionario.update({f'Notícia {num} - {preferencia[indice]}':{'Tittle': titulo, 'Notice': link_noticia, 'Image': link_imagem, 'Date': data}})
 
+                    for key, value in dicionario.items():
+                        if value not in dicionario_noticias.values():
+                            dicionario_noticias[key] = value
+                    num += 1
+
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
-                for key, value in dicionario.items():
-                    if value not in dicionario_noticias.values():
-                        dicionario_noticias[key] = value
-                    num += 1
         indice += 1
 
     return jsonify(dicionario_noticias), 200
