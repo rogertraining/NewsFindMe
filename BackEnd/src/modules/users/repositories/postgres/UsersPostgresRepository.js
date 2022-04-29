@@ -2,6 +2,7 @@ import Prisma from "@prisma/client"
 import bcrypt from "bcrypt"
 import { randomUUID } from "crypto";
 import { defineUserPreferencesPrismaParams } from "./utils/defineUserPreferencesPrismaParams.js";
+import { defaultUserSelect } from "./utils/prismaDefaultUserSelect.js";
 
 const { PrismaClient } = Prisma
 
@@ -30,7 +31,7 @@ export class UsersPostgresRepository {
 
     const userId = randomUUID()
 
-    await this._repository.user.create({
+    const createdUser = await this._repository.user.create({
       data: {
         id: userId,
         email,
@@ -41,10 +42,9 @@ export class UsersPostgresRepository {
         preferences: {
           create: preferences_prisma_params
         },
-      }
+      },
+      select: defaultUserSelect
     });
-
-    const createdUser = await this.findById(userId)
 
     return createdUser
   }
@@ -56,14 +56,54 @@ export class UsersPostgresRepository {
       },
       include:{
         preferences: true,
-      }
+      },
+      select: defaultUserSelect
     });
 
     return user
   }
 
   async findAllUsers() {
-    return this._repository.user.findMany();
+    return this._repository.user.findMany({
+      include: {
+        preferences: true
+      },
+      select: defaultUserSelect
+    });
+  }
+
+  async deleteById(user_id) {
+    const deletedUser = await this._repository.user.delete({
+      where: {
+        id: user_id
+      },
+      include: {
+        news: true,
+        preferences: true,
+      },
+      select: defaultUserSelect
+    });
+
+    return deletedUser
+  }
+
+  async updateUserName({ 
+    user_id,
+    lastname,
+    username 
+  } = updateUserNameData) {
+    const updateUser =  await this._repository.user.update({
+      where: {
+        id: user_id
+      },
+      data: {
+        lastname,
+        firstname,
+      },
+      select: defaultUserSelect
+    });
+
+    return updateUser
   }
 }
     // async findAllUsers(request, response) {

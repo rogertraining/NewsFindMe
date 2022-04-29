@@ -10,11 +10,7 @@
     "dev": "NODE_ENV=development NODE_OPTIONS=--experimental-json-modules nodemon ./src/main.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache",
     "docker:dev:windows": "docker-compose --env-file docker.env up -d newsfindme-api_container",
-    "docker:dev:ubuntu": "docker compose --env-file docker.env up -d newsfindme-api_container",
-    "knex:make-migration": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:make",
-    "knex:latest": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:latest",
-    "knex:rollback": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:rollback --all",
-    "knex:migration-down": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules npx knex migrate:down"
+    "debug:dev": "NODE_ENV=development NODE_OPTIONS=--experimental-json-modules nodemon --inspect ./src/main.js"
   },
   "type": "module",
   "author": "",

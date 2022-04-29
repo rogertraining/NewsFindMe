@@ -31,11 +31,11 @@ model Category {
 model News {
   id        String          @id @db.Uuid
   title     String
-  link      String
+  link      String          @unique
   image_url String
   posted_at DateTime
-  category  Category_News[]
-  user      User_News[]
+  categories  Category_News[]
+  users      User_News[]
 }
 
 model User_Category {

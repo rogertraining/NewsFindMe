@@ -14,6 +14,8 @@ export class NewsInMemoryRepository {
   }
 
   create(newsData) {
+    const someArray = []
+    let without_duplicate = []
     if (newsData.length !== 0) {
       newsData.forEach(newsObject => {
         const [newsindex,news] = newsObject
@@ -24,16 +26,25 @@ export class NewsInMemoryRepository {
           title: news.Tittle,
           link: news.Notice,
           image_url: news.Image,
-          category,
+          categories: [category],
           saved_at: new Date()
         })
-        this._repository.push(newsToBeSaved)
+        someArray.push(newsToBeSaved)
       });
     }
     
-    const savedNews = [...this._repository]
+    for(let i=0;i < someArray.length;i++) {
+      for(let j=i+1;j<someArray.length;j++) {
+        if(someArray[i] && someArray[j]) {
+          if (someArray[i].link === someArray[j].link) {
+            someArray[i].categories.push(someArray[j].categories[0])
+            without_duplicate = someArray.filter(news => news !== someArray[j])
+          }
+        }
+      }
+    }
 
-    return savedNews
+    return without_duplicate
   }
 
   separateCategory(preference) {

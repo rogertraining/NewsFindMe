@@ -17,6 +17,6 @@ export async function getCustomNewsHandler(request, response) {
   const repository = NewsInMemoryRepository.getInstance()
 
   const savedNews = repository.create(newsData, preferences)
-a
+
   return response.status(201).send(savedNews)
 }
