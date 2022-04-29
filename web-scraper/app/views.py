@@ -59,7 +59,7 @@ def scraper(tag, classe, tag_img, classe_img, tag_tittle, classe_tittle, tag_lin
                     for key, value in dicionario.items():
                         if value not in dicionario_noticias.values():
                             dicionario_noticias[key] = value
-                    num += 1
+                            num += 1
 
                 json.dump(dicionario, arquivo, indent=4, ensure_ascii=False)
 
